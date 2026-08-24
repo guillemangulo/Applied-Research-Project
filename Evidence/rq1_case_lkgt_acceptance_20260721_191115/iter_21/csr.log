@@ -1,0 +1,163 @@
+[0;34m[1784654507.737] [5145:5145] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_tool_kvs[0m
+[1;31m[1784654507.739] [5145:5145] [DL] ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs, IGNORING.[0m
+[0;34m[1784654507.740] [5145:5145] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini[0m
+[0;34m[1784654507.740] [5145:5145] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini[0m
+[0;34m[1784654507.740] [5145:5145] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini[0m
+[0;34m[1784654507.743] [5145:5145] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784654507.743] [5145:5145] [DL] NVS set: chip-counters/reboot-count = 4 (0x4)[0m
+[0;32m[1784654507.743] [5145:5145] [DL] Got Ethernet interface: enp0s3[0m
+[0;32m[1784654507.744] [5145:5145] [DL] Found the primary Ethernet interface:enp0s3[0m
+[1;31m[1784654507.744] [5145:5145] [DL] Failed to get WiFi interface[0m
+[1;31m[1784654507.744] [5145:5145] [DL] Failed to reset WiFi statistic counts[0m
+[0;32m[1784654507.744] [5145:5145] [PAF] WiFiPAF: WiFiPAFLayer::Init()[0m
+[0;34m[1784654507.744] [5145:5145] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1784654507.744] [5145:5145] [IN] UDP::Init bound to port=38256[0m
+[0;34m[1784654507.744] [5145:5145] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1784654507.744] [5145:5145] [IN] UDP::Init bound to port=40518[0m
+[0;34m[1784654507.744] [5145:5145] [IN] BLEBase::Init - setting/overriding transport[0m
+[0;34m[1784654507.744] [5145:5145] [IN] WiFiPAFBase::Init - setting/overriding transport[0m
+[0;34m[1784654507.744] [5145:5145] [IN] TransportMgr initialized[0m
+[0;34m[1784654507.744] [5145:5145] [FP] Initializing FabricTable from persistent storage[0m
+[0;32m[1784654507.744] [5145:5145] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.744] [5145:5145] [FP] Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x98760EE571BBA0DC, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1[0m
+[0;32m[1784654507.746] [5145:5145] [DMG] Ember attribute persistence requires setting up[0m
+[0;32m[1784654507.746] [5145:5145] [ZCL] Using ZAP configuration...[0m
+[0;34m[1784654507.746] [5145:5145] [CTL] System State Initialized...[0m
+[0;32m[1784654507.746] [5145:5145] [CTL] Setting attestation nonce to random value[0m
+[0;32m[1784654507.746] [5145:5145] [CTL] Setting CSR nonce to random value[0m
+[0;34m[1784654507.746] [5145:5147] [DL] CHIP task running[0m
+[0;32m[1784654507.746] [5145:5147] [CTL] Setting attestation nonce to random value[0m
+[0;32m[1784654507.746] [5145:5147] [CTL] Setting CSR nonce to random value[0m
+[0;32m[1784654507.746] [5145:5147] [CTL] Generating NOC[0m
+[0;32m[1784654507.746] [5145:5147] [FP] Validating NOC chain[0m
+[0;32m[1784654507.747] [5145:5147] [FP] NOC chain validation successful[0m
+[0;32m[1784654507.747] [5145:5147] [FP] Updated fabric at index: 0x1, Node ID: 0x000000000001B669[0m
+[0;32m[1784654507.747] [5145:5147] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.747] [5145:5147] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0;32m[1784654507.747] [5145:5147] [TS] Retaining current Last Known Good Time[0m
+[0;32m[1784654507.749] [5145:5147] [FP] Metadata for Fabric 0x1 persisted to storage.[0m
+[0;32m[1784654507.749] [5145:5147] [TS] Committing Last Known Good Time to storage: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.750] [5145:5147] [CTL] Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: 98760EE571BBA0DC)[0m
+[0;32m[1784654507.755] [5145:5147] [TOO] Sending command to node 0x1[0m
+[0;34m[1784654507.755] [5145:5147] [CSM] FindOrEstablishSession: PeerId = [1:0000000000000001][0m
+[0;34m[1784654507.755] [5145:5147] [CSM] FindOrEstablishSession: No existing OperationalSessionSetup instance found[0m
+[0;34m[1784654507.755] [5145:5147] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 1 --> 2[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] Lookup started for 98760EE571BBA0DC-0000000000000001[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540: new best score: 7 (for 98760EE571BBA0DC-0000000000000001)[0m
+[0;34m[1784654507.756] [5145:5147] [DIS] Lookup clearing interface for non LL address[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] UDP:10.0.2.15%enp0s3:5540: new best score: 2 (for 98760EE571BBA0DC-0000000000000001)[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] Checking node lookup status for 98760EE571BBA0DC-0000000000000001 after 1 ms[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] Keeping DNSSD lookup active[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540: score has not improved: 7 (for 98760EE571BBA0DC-0000000000000001)[0m
+[0;34m[1784654507.756] [5145:5147] [DIS] Lookup clearing interface for non LL address[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] UDP:10.0.2.15%enp0s3:5540: score has not improved: 2 (for 98760EE571BBA0DC-0000000000000001)[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] Checking node lookup status for 98760EE571BBA0DC-0000000000000001 after 1 ms[0m
+[0;32m[1784654507.756] [5145:5147] [DIS] Keeping DNSSD lookup active[0m
+[0;32m[1784654507.955] [5145:5147] [DIS] Checking node lookup status for 98760EE571BBA0DC-0000000000000001 after 201 ms[0m
+[0;34m[1784654507.955] [5145:5147] [DIS] OperationalSessionSetup[1:0000000000000001]: Updating device address to UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540 while in state 2[0m
+[0;34m[1784654507.955] [5145:5147] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 2 --> 3[0m
+[0;34m[1784654507.956] [5145:5147] [IN] SecureSession[0x7851ac009cd0]: Allocated Type:2 LSID:5336[0m
+[0;32m[1784654507.956] [5145:5147] [SC] Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x0000000000000001[0m
+[0;32m[1784654507.956] [5145:5147] [EM] <<< [E:21423i S:0 M:36856728] (U) Msg TX from 7573FD848C9D5C3E to 0:0000000000000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;32m[1784654507.956] [5145:5147] [EM] ??1 [E:21423i S:0 M:36856728] (U) Msg Retransmission to 0:0000000000000000 scheduled for 563ms from now [State:Idle II:500 AI:300 AT:4000][0m
+[0;32m[1784654507.956] [5145:5147] [SC] Sent Sigma1 msg to <0000000000000001, 1> [II:500ms AI:300ms AT:4000ms][0m
+[0;34m[1784654507.956] [5145:5147] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 3 --> 4[0m
+[0;32m[1784654507.959] [5145:5147] [EM] >>> [E:21423i S:0 M:93556192 (Ack:36856728)] (U) Msg RX from 0:0000000000000000 [0000] to 7573FD848C9D5C3E --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;34m[1784654507.959] [5145:5147] [EM] Found matching exchange: 21423i, Delegate: 0x7851ac00b8e8[0m
+[0;34m[1784654507.959] [5145:5147] [EM] Rxd Ack; Removing MessageCounter:36856728 from Retrans Table on exchange 21423i[0m
+[0;32m[1784654507.959] [5145:5147] [SC] Received Sigma2 msg[0m
+[0;34m[1784654507.959] [5145:5147] [SC] Found MRP parameters in the message[0m
+[0;34m[1784654507.960] [5145:5147] [SC] Peer <0000000000000001, 1> assigned session ID 50791[0m
+[0;34m[1784654507.960] [5145:5147] [SC] Sending Sigma3[0m
+[0;32m[1784654507.960] [5145:5147] [EM] <<< [E:21423i S:0 M:36856729 (Ack:93556192)] (U) Msg TX from 7573FD848C9D5C3E to 0:0000000000000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;32m[1784654507.960] [5145:5147] [EM] ??1 [E:21423i S:0 M:36856729] (U) Msg Retransmission to 0:0000000000000000 scheduled for 390ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784654507.960] [5145:5147] [SC] Sent Sigma3 msg[0m
+[0;32m[1784654507.969] [5145:5147] [EM] >>> [E:21423i S:0 M:93556193 (Ack:36856729)] (U) Msg RX from 0:0000000000000000 [0000] to 7573FD848C9D5C3E --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;34m[1784654507.969] [5145:5147] [EM] Found matching exchange: 21423i, Delegate: 0x7851ac00b8e8[0m
+[0;34m[1784654507.969] [5145:5147] [EM] Rxd Ack; Removing MessageCounter:36856729 from Retrans Table on exchange 21423i[0m
+[0;32m[1784654507.969] [5145:5147] [SC] Success status report received. Session was established[0m
+[0;32m[1784654507.970] [5145:5147] [SC] SecureSession[0x7851ac009cd0, LSID:5336]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784654507.970] [5145:5147] [IN] SecureSession[0x7851ac009cd0]: Activated - Type:2 LSID:5336[0m
+[0;34m[1784654507.970] [5145:5147] [IN] New secure session activated for device <0000000000000001, 1>, LSID:5336 PSID:50791![0m
+[0;34m[1784654507.971] [5145:5147] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 4 --> 5[0m
+[0;32m[1784654507.971] [5145:5147] [TOO] Sending cluster (0x0000003E) command (0x00000004) on endpoint 0[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] ICR moving to [AddingComm][0m
+[0;34m[1784654507.971] [5145:5147] [DMG] ICR moving to [AddedComma][0m
+[0;32m[1784654507.971] [5145:5147] [EM] <<< [E:21424i S:5336 M:221289152] (S) Msg TX from 000000000001B669 to 1:0000000000000001 [A0DC] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0001:08 (IM:InvokeCommandRequest) (B:96)[0m
+[0;32m[1784654507.971] [5145:5147] [EM] ??1 [E:21424i S:5336 M:221289152] (S) Msg Retransmission to 1:0000000000000001 scheduled for 360ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784654507.971] [5145:5147] [DMG] ICR moving to [AwaitingRe][0m
+[0;32m[1784654507.971] [5145:5147] [EM] <<< [E:21423i S:0 M:36856730 (Ack:93556193)] (U) Msg TX from 7573FD848C9D5C3E to 0:0000000000000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784654507.971] [5145:5147] [EM] Flushed pending ack for MessageCounter:93556193 on exchange 21423i[0m
+[0;32m[1784654507.971] [5145:5147] [EM] >>> [E:21424i S:5336 M:207519380 (Ack:221289152)] (S) Msg RX from 1:0000000000000001 [A0DC] to 000000000001B669 --- Type 0001:09 (IM:InvokeCommandResponse) (B:377)[0m
+[0;34m[1784654507.971] [5145:5147] [EM] Found matching exchange: 21424i, Delegate: 0x7851ac00eef8[0m
+[0;34m[1784654507.971] [5145:5147] [EM] Rxd Ack; Removing MessageCounter:221289152 from Retrans Table on exchange 21424i[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] ICR moving to [ResponseRe][0m
+[0;34m[1784654507.971] [5145:5147] [DMG] InvokeResponseMessage =[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] {[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	InvokeResponseIBs =[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	[[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 		InvokeResponseIB =[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 		{[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 			CommandDataIB =[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 			{[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				CommandPathIB =[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				{[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					EndpointId = 0x0,[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					ClusterId = 0x3e,[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					CommandId = 0x5,[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				},[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				CommandFields = [0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				{[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					0x0 = [[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 							0x15, 0x30, 0x01, 0xcb, 0x30, 0x81, 0xc8, 0x30, 0x70, 0x02, 0x01, 0x00, 0x30, 0x0e, 0x31, 0x0c, 0x30, 0x0a, 0x06, 0x03, 0x55, 0x04, 0x0a, 0x0c, 0x03, 0x43, 0x53, 0x52, 0x30, 0x59, 0x30, 0x13, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x03, 0x01, 0x07, 0x03, 0x42, 0x00, 0x04, 0x27, 0x8f, 0x43, 0x7c, 0x05, 0x41, 0x15, 0x0b, 0x2e, 0xf4, 0xae, 0xf7, 0x12, 0xcb, 0x7f, 0x9c, 0x51, 0x13, 0xc4, 0xc4, 0x11, 0x57, 0x15, 0xd1, 0xff, 0xe7, 0xe0, 0x63, 0xd2, 0x90, 0x3d, 0xd3, 0x75, 0x00, 0xd9, 0x59, 0x2b, 0xe8, 0x8c, 0xe0, 0xb2, 0x7d, 0xb6, 0x53, 0xe6, 0xd6, 0xe3, 0x0b, 0xaa, 0x63, 0xc9, 0xac, 0xc3, 0x7b, 0x68, 0x7c, 0x20, 0xbd, 0x8a, 0xb6, 0x81, 0xc0, 0xd7, 0xc4, 0xa0, 0x00, 0x30, 0x0a, 0x06, 0x08, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x04, 0x03, 0x02, 0x03, 0x48, 0x00, 0x30, 0x45, 0x02, 0x21, 0x00, 0x9e, 0xab, 0x3f, 0x99, 0x08, 0xe5, 0x24, 0xe2, 0x31, 0xff, 0xa9, 0xf2, 0xf9, 0x4f, 0x66, 0x1d, 0x1f, 0xca, 0xa8, 0x7f, 0x67, 0x1a, 0xa0, 0x2d, 0x6e, 0x93, 0x44, 0x1d, 0x0f, 0x17, 0x81, 0x68, 0x02, 0x20, 0x44, 0x48, 0x71, 0xa1, 0x0e, 0x6a, 0x6f, 0x57, 0x26, 0xd3, 0x4d, 0x14, 0x3f, 0x93, 0x01, 0x42, 0x54, 0x4f, 0xd4, 0xcd, 0xfe, 0x97, 0xd5, 0xb9, 0x55, 0x77, 0x1f, 0x76, 0x56, 0xda, 0x89, 0x8c, 0x30, 0x02, 0x20, 0xde, 0xa5, 0x92, 0xdb, 0x52, 0xe3, 0xe0, 0x54, 0x2d, 0x9a, 0x31, 0x13, 0x50, 0x00, 0x70, 0x8c, 0xd0, 0xf0, 0x09, 0xb8, 0x60, 0x8f, 0xdd, 0x77, 0x50, 0x39, 0xd5, 0xe9, 0x39, 0xd2, 0x85, 0x5e, 0x18, [0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					] (243 bytes)[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					0x1 = [[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 							0x80, 0x6a, 0x74, 0xe2, 0x53, 0x08, 0x5c, 0xda, 0x70, 0x9a, 0x9f, 0xcd, 0x13, 0xe0, 0x12, 0xb9, 0xae, 0x4f, 0xae, 0x14, 0x8d, 0x24, 0x68, 0x16, 0x3f, 0x9b, 0x8b, 0x2e, 0x04, 0xbc, 0x2c, 0xcc, 0xc7, 0x88, 0x31, 0x6c, 0x21, 0x7f, 0x0d, 0xee, 0xa1, 0xc6, 0x53, 0xf6, 0xb7, 0x71, 0x5a, 0xe1, 0xbc, 0x4c, 0x48, 0xfd, 0x77, 0x90, 0xb1, 0x14, 0x82, 0x6a, 0x40, 0x35, 0xc9, 0x13, 0xe3, 0x53, [0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 					] (64 bytes)[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 				},[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 			},[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 			[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 		},[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 		[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	],[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] },[0m
+[0;32m[1784654507.971] [5145:5147] [DMG] Received Command Response Data, Endpoint=0 Cluster=0x0000_003E Command=0x0000_0005[0m
+[0;32m[1784654507.971] [5145:5147] [TOO] Endpoint: 0 Cluster: 0x0000_003E Command 0x0000_0005[0m
+[0;32m[1784654507.971] [5145:5147] [TOO]   CSRResponse: {[0m
+[0;32m[1784654507.971] [5145:5147] [TOO]     NOCSRElements: 153001CB3081C83070020100300E310C300A060355040A0C034353523059301306072A8648CE3D020106082A8648CE3D03010703420004278F437C0541150B2EF4AEF712CB7F9C5113C4C4115715D1FFE7E063D2903DD37500D9592BE88CE0B27DB653E6D6E30BAA63C9ACC37B687C20BD8AB681C0D7C4A000300A06082A8648CE3D04030203480030450221009EAB3F9908E524E231FFA9F2F94F661D1FCAA87F671AA02D6E93441D0F1781680220444871A10E6A6F5726D34D143F930142544FD4CDFE97D5B955771F7656DA898C300220DEA592DB52E3E0542D9A31135000708CD0F009B8608FDD775039D5E939D2855E18[0m
+[0;32m[1784654507.971] [5145:5147] [TOO]     attestationSignature: 806A74E253085CDA709A9FCD13E012B9AE4FAE148D2468163F9B8B2E04BC2CCCC788316C217F0DEEA1C653F6B7715AE1BC4C48FD7790B114826A4035C913E353[0m
+[0;32m[1784654507.971] [5145:5147] [TOO]    }[0m
+[0;34m[1784654507.971] [5145:5147] [DMG] ICR moving to [AwaitingDe][0m
+[0;32m[1784654507.972] [5145:5147] [EM] <<< [E:21424i S:5336 M:221289153 (Ack:207519380)] (S) Msg TX from 000000000001B669 to 1:0000000000000001 [A0DC] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784654507.972] [5145:5147] [EM] Flushed pending ack for MessageCounter:207519380 on exchange 21424i[0m
+[0;34m[1784654507.972] [5145:5145] [CTL] Shutting down the commissioner[0m
+[0;32m[1784654507.972] [5145:5145] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;34m[1784654507.972] [5145:5145] [CTL] Shutting down the controller[0m
+[0;34m[1784654507.972] [5145:5145] [IN] Expiring all sessions for fabric 0x1!![0m
+[0;34m[1784654507.972] [5145:5145] [IN] SecureSession[0x7851ac009cd0]: MarkForEviction Type:2 LSID:5336[0m
+[0;32m[1784654507.972] [5145:5145] [SC] SecureSession[0x7851ac009cd0, LSID:5336]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784654507.972] [5145:5145] [IN] SecureSession[0x7851ac009cd0]: Released - Type:2 LSID:5336[0m
+[0;32m[1784654507.972] [5145:5145] [FP] Forgetting fabric 0x1[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Reverted Last Known Good Time to previous value[0m
+[0;34m[1784654507.972] [5145:5145] [CTL] Shutting down the commissioner[0m
+[0;32m[1784654507.972] [5145:5145] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;34m[1784654507.972] [5145:5145] [CTL] Shutting down the controller[0m
+[0;34m[1784654507.972] [5145:5145] [CTL] Shutting down the System State, this will teardown the CHIP Stack[0m
+[0;34m[1784654507.972] [5145:5145] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[1784654507.972] [5145:5145] [FP] Shutting down FabricTable[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784654507.972] [5145:5145] [TS] Reverted Last Known Good Time to previous value[0m
+[0;34m[1784654507.974] [5145:5145] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784654507.974] [5145:5145] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;32m[1784654507.974] [5145:5145] [DL] Inet Layer shutdown[0m
+[0;32m[1784654507.974] [5145:5145] [DL] BLE Layer shutdown[0m
+[0;32m[1784654507.974] [5145:5145] [DL] WiFi-PAF Layer shutdown[0m
+[0;32m[1784654507.974] [5145:5145] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;32m[1784654507.974] [5145:5145] [DL] System Layer shutdown[0m

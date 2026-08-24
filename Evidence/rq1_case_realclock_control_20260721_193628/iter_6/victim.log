@@ -1,0 +1,1680 @@
+[0;34m[1784655540.262] [8481:8481] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_kvs_test[0m
+[0;34m[1784655540.298] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[1;31m[1784655540.299] [8481:8481] [DL] ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs, IGNORING.[0m
+[0;34m[1784655540.300] [8481:8481] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini[0m
+[0;34m[1784655540.302] [8481:8481] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;34m[1784655540.302] [8481:8481] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini[0m
+[0;34m[1784655540.304] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;34m[1784655540.304] [8481:8481] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini[0m
+[0;34m[1784655540.305] [8481:8481] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;34m[1784655540.307] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655540.307] [8481:8481] [DL] NVS set: chip-config/unique-id = "7BE3A52462843DDF"[0m
+[0;34m[1784655540.310] [8481:8481] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1784655540.310] [8481:8481] [DL] NVS set: chip-factory/vendor-id = 65521 (0xFFF1)[0m
+[0;34m[1784655540.312] [8481:8481] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1784655540.312] [8481:8481] [DL] NVS set: chip-factory/product-id = 32769 (0x8001)[0m
+[0;34m[1784655540.314] [8481:8481] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784655540.314] [8481:8481] [DL] NVS set: chip-counters/reboot-count = 1 (0x1)[0m
+[0;34m[1784655540.316] [8481:8481] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784655540.316] [8481:8481] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;34m[1784655540.318] [8481:8481] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784655540.318] [8481:8481] [DL] NVS set: chip-counters/boot-reason = 0 (0x0)[0m
+[0;34m[1784655540.320] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655540.320] [8481:8481] [DL] NVS set: chip-config/regulatory-location = 0 (0x0)[0m
+[0;34m[1784655540.322] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655540.322] [8481:8481] [DL] NVS set: chip-config/location-capability = 2 (0x2)[0m
+[0;34m[1784655540.324] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655540.324] [8481:8481] [DL] NVS set: chip-config/configuration-version = 1 (0x1)[0m
+[0;32m[1784655540.324] [8481:8481] [DL] Got Ethernet interface: enp0s3[0m
+[0;32m[1784655540.324] [8481:8481] [DL] Found the primary Ethernet interface:enp0s3[0m
+[1;31m[1784655540.324] [8481:8481] [DL] Failed to get WiFi interface[0m
+[1;31m[1784655540.324] [8481:8481] [DL] Failed to reset WiFi statistic counts[0m
+[0;32m[1784655540.324] [8481:8481] [PAF] WiFiPAF: WiFiPAFLayer::Init()[0m
+[1;31m[1784655540.324] [8481:8481] [-] *** WARNING: Using temporary passcode 20202021 due to no neither --passcode or --spake2p-verifier-base64 given on command line or factory configuration. This is temporary and will disappear. Please update your scripts to explicitly configure onboarding credentials. ***[0m
+[1;31m[1784655540.324] [8481:8481] [-] *** WARNING: Using temporary test discriminator 3840 due to --discriminator not given on command line or factory configuration. This is temporary and will disappear. Please update your scripts to explicitly configure onboarding credentials. ***[0m
+[0;32m[1784655540.324] [8481:8481] [SPT] LinuxCommissionableDataProvider didn't get a PASE salt, generating one.[0m
+[0;32m[1784655540.325] [8481:8481] [DL] Device Configuration:[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Serial Number: TEST_SN[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Vendor Id: 65521 (0xFFF1)[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Product Id: 32769 (0x8001)[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Product Name: TEST_PRODUCT[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Hardware Version: 0[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Setup Pin Code (0 for UNKNOWN/ERROR): 20202021[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Setup Discriminator (0xFFFF for UNKNOWN/ERROR): 3840 (0xF00)[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Manufacturing Date: (not set)[0m
+[0;32m[1784655540.325] [8481:8481] [DL]   Device Type: 257 (0x101)[0m
+[0;32m[1784655540.325] [8481:8481] [-] ==== Onboarding payload for Standard Commissioning Flow ====[0m
+[0;32m[1784655540.325] [8481:8481] [SVR] SetupQRCode: [MT:-24J042C00KA0648G00][0m
+[0;32m[1784655540.325] [8481:8481] [SVR] Copy/paste the below URL in a browser to see the QR Code:[0m
+[0;32m[1784655540.325] [8481:8481] [SVR] https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT%3A-24J042C00KA0648G00[0m
+[0;32m[1784655540.325] [8481:8481] [SVR] Manual pairing code: [34970112332][0m
+[0;32m[1784655540.325] [8481:8481] [SVR] Initializing subscription resumption storage...[0m
+[0;34m[1784655540.327] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655540.327] [8481:8481] [SVR] Server initializing...[0m
+[0;34m[1784655540.327] [8481:8481] [FP] Initializing FabricTable from persistent storage[0m
+[0;32m[1784655540.327] [8481:8481] [TS] Last Known Good Time: [unknown][0m
+[0;32m[1784655540.327] [8481:8481] [TS] Setting Last Known Good Time to firmware build time 2023-10-14T01:16:48[0m
+[0;34m[1784655540.329] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655540.329] [8481:8481] [DMG] AccessControl: initializing[0m
+[0;32m[1784655540.329] [8481:8481] [DMG] Examples::AccessControlDelegate::Init[0m
+[0;32m[1784655540.329] [8481:8481] [DMG] AccessControl: setting[0m
+[0;32m[1784655540.329] [8481:8481] [DMG] DefaultAclStorage: initializing[0m
+[0;32m[1784655540.329] [8481:8481] [DMG] DefaultAclStorage: 0 entries loaded[0m
+[0;34m[1784655540.329] [8481:8481] [IN] UDP::Init bind&listen port=5540[0m
+[0;34m[1784655540.329] [8481:8481] [IN] UDP::Init bound to port=5540[0m
+[0;34m[1784655540.329] [8481:8481] [IN] UDP::Init bind&listen port=5540[0m
+[0;34m[1784655540.329] [8481:8481] [IN] UDP::Init bound to port=5540[0m
+[0;34m[1784655540.329] [8481:8481] [IN] BLEBase::Init - setting/overriding transport[0m
+[0;32m[1784655540.329] [8481:8481] [IN] TCP server listening on port 5540 for incoming connections[0m
+[0;32m[1784655540.329] [8481:8481] [IN] TCP server listening on port 5540 for incoming connections[0m
+[0;34m[1784655540.329] [8481:8481] [IN] WiFiPAFBase::Init - setting/overriding transport[0m
+[0;34m[1784655540.329] [8481:8481] [IN] TransportMgr initialized[0m
+[0;34m[1784655540.331] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655540.333] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655540.335] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655540.335] [8481:8481] [DMG] Ember attribute persistence requires setting up[0m
+[0;32m[1784655540.335] [8481:8481] [ZCL] Using ZAP configuration...[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0006, 0x0000_0000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0006, 0x0000_4003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0008, 0x0000_0000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0008, 0x0000_4000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0050, 0x0000_0003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0050, 0x0000_0004: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0050, 0x0000_0005: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0001: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0002: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0004: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0006: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_005C, 0x0000_0007: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0081, 0x0000_0001: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0081, 0x0000_0008: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0004: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0005: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0006: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0007: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0008: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0009: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_000E: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_000F: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0010: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0011: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0012: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0013: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0102, 0x0000_0017: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_0000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_0001: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_0003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_0004: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_0007: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4000: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4001: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4002: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4003: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4004: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.335] [8481:8481] [DMG] Failed to read stored attribute (1, 0x0000_0300, 0x0000_4010: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;34m[1784655540.337] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655540.337] [8481:8481] [EVL] LogEvent event number: 0x0000000000000000 priority: 1, endpoint id:  0x0 cluster id: 0x0000_0038 event id: 0x0 Epoch timestamp: 0x0000019F85C27071[0m
+[0;32m[1784655540.337] [8481:8481] [ZCL] Emit DSTTableEmpty event [ep=0][0m
+[0;32m[1784655540.337] [8481:8481] [ZCL] Initializing TLS Certificate Management cluster.[0m
+[0;32m[1784655540.337] [8481:8481] [ZCL] Initializing TLS Client Management cluster.[0m
+[0;34m[1784655540.337] [8481:8481] [ZCL] UnitLocalization ep0 set default TemperatureUnit: 1[0m
+[0;34m[1784655540.337] [8481:8481] [DMG] Endpoint 0, Cluster 0x0000_0004 update version to c9848d66[0m
+[0;34m[1784655540.337] [8481:8481] [DMG] Endpoint 0, Cluster 0x0000_0004 update version to c9848d67[0m
+[0;34m[1784655540.338] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0004 update version to 6765a59b[0m
+[0;34m[1784655540.338] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0004 update version to 6765a59c[0m
+[0;32m[1784655540.338] [8481:8481] [ZCL] Endpoint 1 On/off already set to new value[0m
+[0;34m[1784655540.338] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0008 update version to 791f6f4f[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the CurrentMode from the KVS. Assuming 0[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the StartUpMode from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ModeBase: Unable to load the OnMode from the KVS.      Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: Init[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: Unable to load the LastChangedTime from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: calling mDelegate->Init()[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] HepaFilterMonitoringDelegate::Init()[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: Init[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: Unable to load the LastChangedTime from the KVS. Assuming null[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ResourceMonitoring: calling mDelegate->Init()[0m
+[0;34m[1784655540.338] [8481:8481] [ZCL] ActivatedCarbonFilterMonitoringDelegate::Init()[0m
+[0;34m[1784655540.340] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655540.340] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0102 update version to 1dd777eb[0m
+[0;32m[1784655540.340] [8481:8481] [ZCL] WC POST ATTRIBUTE=7[0m
+[0;32m[1784655540.340] [8481:8481] [ZCL] ConfigStatus 0x1B Operational=1 OnlineReserved=1[0m
+[0;32m[1784655540.340] [8481:8481] [ZCL] Lift(PA=1 Encoder=0 Reversed=0) Tilt(PA=1 Encoder=0)[0m
+[0;32m[1784655540.340] [8481:8481] [ZCL] Initialize PCC Server Cluster [EP:1][0m
+[0;34m[1784655540.340] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0300 update version to 59b0ac5[0m
+[0;34m[1784655540.340] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0300 update version to 59b0ac6[0m
+[0;34m[1784655540.342] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655540.342] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0300 update version to 59b0ac7[0m
+[0;34m[1784655540.342] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0406 update version to 48726d7f[0m
+[0;34m[1784655540.342] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0406 update version to 48726d80[0m
+[0;34m[1784655540.342] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a69[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6a[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6b[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6c[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6d[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6e[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a6f[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040C update version to 287b3a70[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d2[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d3[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d4[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d5[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d6[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d7[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d8[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_040D update version to 5d077d9[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c50[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c51[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c52[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c53[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c54[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c55[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c56[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0413 update version to b6717c57[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221231[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221232[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221233[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221234[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221235[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221236[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221237[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_0415 update version to b3221238[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476a5[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476a6[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476a7[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476a8[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476a9[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476aa[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476ab[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042A update version to cf0476ac[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b1[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b2[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b3[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b4[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b5[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b6[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b7[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042B update version to 9b1972b8[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e2[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e3[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e4[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e5[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e6[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e7[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e8[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042C update version to b1dfb5e9[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637680[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637681[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637682[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637683[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637684[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637685[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637686[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042D update version to 6e637687[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee1c[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee1d[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee1e[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee1f[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee20[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee21[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee22[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042E update version to 5a00ee23[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b69[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6a[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6b[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6c[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6d[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6e[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b6f[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_042F update version to 71c6b70[0m
+[0;32m[1784655540.343] [8481:8481] [-] Setting LowPower default delegate to global manager[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 2, Cluster 0x0000_0004 update version to a5c2eef8[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 2, Cluster 0x0000_0004 update version to a5c2eef9[0m
+[1;31m[1784655540.343] [8481:8481] [IM] Duplicate attribute override registration failed[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 2, Cluster 0x0000_0406 update version to 7540aeb0[0m
+[0;34m[1784655540.343] [8481:8481] [DMG] Endpoint 2, Cluster 0x0000_0406 update version to 7540aeb1[0m
+[0;32m[1784655540.343] [8481:8481] [DMG] TLSClientManagementCluster: initializing[0m
+[0;32m[1784655540.343] [8481:8481] [DMG] TLSCertificateManagementCluster: initializing[0m
+[0;34m[1784655540.343] [8481:8481] [ZCL] Chime: Unable to load the SelectedChime attribute from the KVS. Defaulting to 0[0m
+[0;34m[1784655540.343] [8481:8481] [ZCL] Chime: Unable to load the Enabled attribute from the KVS. Defaulting to 1[0m
+[0;34m[1784655540.343] [8481:8481] [EVL] LogEvent event number: 0x0000000000000001 priority: 2, endpoint id:  0x0 cluster id: 0x0000_0033 event id: 0x3 Epoch timestamp: 0x0000019F85C27077[0m
+[0;34m[1784655540.345] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655540.345] [8481:8481] [DMG] AccessControlCluster: initializing[0m
+[0;34m[1784655540.345] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Allocated Type:1 LSID:35431[0m
+[0;34m[1784655540.345] [8481:8481] [SC] Assigned local session key ID 35431[0m
+[0;34m[1784655540.345] [8481:8481] [SC] Waiting for PBKDF param request[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] Updating services using commissioning mode 1[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;34m[1784655540.345] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] DNS-SD Pairing Instruction not set[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1 cp=0 jf=0[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _V65521._sub._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _T257._sub._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _S15._sub._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _L3840._sub._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with _CM._sub._matterc._udp.local[0m
+[0;34m[1784655540.345] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 66DBE500308D7653.[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] mDNS service published: _matterc._udp[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] Updating services using commissioning mode 1[0m
+[0;32m[1784655540.345] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;34m[1784655540.347] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] DNS-SD Pairing Instruction not set[0m
+[0;32m[1784655540.347] [8481:8481] [DIS] Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1 cp=0 jf=0[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _V65521._sub._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _T257._sub._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _S15._sub._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _L3840._sub._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with _CM._sub._matterc._udp.local[0m
+[0;34m[1784655540.347] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;32m[1784655540.347] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 66DBE500308D7653.[0m
+[0;32m[1784655540.347] [8481:8481] [DIS] mDNS service published: _matterc._udp[0m
+[0;32m[1784655540.347] [8481:8481] [IN] CASE Server enabling CASE session setups[0m
+[0;34m[1784655540.347] [8481:8481] [IN] SecureSession[0x5f1e776d8da0]: Allocated Type:2 LSID:35432[0m
+[0;34m[1784655540.347] [8481:8481] [SC] Allocated SecureSession (0x5f1e776d8da0) - waiting for Sigma1 msg[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] Joining Multicast groups[0m
+[0;34m[1784655540.347] [8481:8481] [ZCL] Emitting StartUp event[0m
+[0;34m[1784655540.347] [8481:8481] [EVL] LogEvent event number: 0x0000000000000002 priority: 2, endpoint id:  0x0 cluster id: 0x0000_0028 event id: 0x0 Epoch timestamp: 0x0000019F85C2707B[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] Server initialization complete[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] Server Listening...[0m
+[0;32m[1784655540.347] [8481:8481] [DL] Device Configuration:[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Serial Number: TEST_SN[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Vendor Id: 65521 (0xFFF1)[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Product Id: 32769 (0x8001)[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Product Name: TEST_PRODUCT[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Hardware Version: 0[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Setup Pin Code (0 for UNKNOWN/ERROR): 20202021[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Setup Discriminator (0xFFFF for UNKNOWN/ERROR): 3840 (0xF00)[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Manufacturing Date: (not set)[0m
+[0;32m[1784655540.347] [8481:8481] [DL]   Device Type: 257 (0x101)[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] SetupQRCode: [MT:-24J042C00KA0648G00][0m
+[0;32m[1784655540.347] [8481:8481] [SVR] Copy/paste the below URL in a browser to see the QR Code:[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT%3A-24J042C00KA0648G00[0m
+[0;32m[1784655540.347] [8481:8481] [SVR] Manual pairing code: [34970112332][0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 0, Cluster 0x0000_001D update version to 93879ebd[0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_005D update version to 7a7db12a[0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_005D update version to 7a7db12b[0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_005D update version to 7a7db12c[0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 1, Cluster 0x0000_005D update version to 7a7db12d[0m
+[0;34m[1784655540.347] [8481:8481] [EVL] LogEvent event number: 0x0000000000000003 priority: 1, endpoint id:  0x1 cluster id: 0x0000_005D event id: 0x0 Epoch timestamp: 0x0000019F85C2707B[0m
+[0;32m[1784655540.347] [8481:8481] [ZCL] Set number of supported temperature units to: 2[0m
+[0;34m[1784655540.347] [8481:8481] [DMG] Endpoint 0, Cluster 0x0000_002D update version to 8e464786[0m
+[0;34m[1784655540.349] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655540.349] [8481:8481] [DL] ===== APP STATUS: Starting event loop =====[0m
+[1;31m[1784655565.360] [8481:8485] [DL] FAIL: Get D-Bus object manager client: Error calling StartServiceByName for org.bluez: Timeout was reached[0m
+[1;31m[1784655565.361] [8481:8481] [DL] Disabling CHIPoBLE service due to error: src/platform/Linux/bluez/BluezObjectManager.cpp:280: CHIP Error 0x000000AC: Internal error[0m
+[1;31m[1784655565.361] [8481:8481] [DL] Long dispatch time: 25011 ms, for event type 3[0m
+[0;32m[1784655565.361] [8481:8481] [SVR] Cannot load binding table: src/platform/Linux/KeyValueStoreManagerImpl.cpp:53: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0;32m[1784655565.361] [8481:8481] [DIS] Updating services using commissioning mode 1[0m
+[0;32m[1784655565.361] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;34m[1784655565.362] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] DNS-SD Pairing Instruction not set[0m
+[0;32m[1784655565.362] [8481:8481] [DIS] Advertise commission parameter vendorID=65521 productID=32769 discriminator=3840/15 cm=1 cp=0 jf=0[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _V65521._sub._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _T257._sub._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _S15._sub._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _L3840._sub._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with _CM._sub._matterc._udp.local[0m
+[0;34m[1784655565.362] [8481:8481] [DIS] Responding with 66DBE500308D7653._matterc._udp.local[0m
+[0;32m[1784655565.362] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 66DBE500308D7653.[0m
+[0;32m[1784655565.363] [8481:8481] [DIS] mDNS service published: _matterc._udp[0m
+[0;32m[1784655565.363] [8481:8481] [IM] No subscriptions to resume[0m
+[0;34m[1784655565.363] [8481:8481] [DMG] Endpoint 0, Cluster 0x0000_0038 update version to cdeba8e[0m
+[0;32m[1784655565.577] [8481:8481] [EM] >>> [E:14361r S:0 M:159214948] (U) Msg RX from 0:70F3474AF46EAF42 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)[0m
+[0;34m[1784655565.577] [8481:8481] [EM] Handling via exchange: 14361r, Delegate: 0x5f1e3834dd08[0m
+[0;34m[1784655565.577] [8481:8481] [SC] Received PBKDF param request[0m
+[0;34m[1784655565.577] [8481:8481] [SC] Peer assigned session ID 34730[0m
+[0;34m[1784655565.577] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;32m[1784655565.577] [8481:8481] [EM] <<< [E:14361r S:0 M:142917753 (Ack:159214948)] (U) Msg TX from 0000000000000000 to 0:70F3474AF46EAF42 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)[0m
+[0;32m[1784655565.577] [8481:8481] [EM] ??1 [E:14361r S:0 M:142917753] (U) Msg Retransmission to 0:0000000000000000 scheduled for 406ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.577] [8481:8481] [SC] Sent PBKDF param response[0m
+[0;32m[1784655565.577] [8481:8481] [SVR] Commissioning session establishment step started[0m
+[0;32m[1784655565.579] [8481:8481] [EM] >>> [E:14361r S:0 M:159214949 (Ack:142917753)] (U) Msg RX from 0:70F3474AF46EAF42 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)[0m
+[0;34m[1784655565.579] [8481:8481] [EM] Found matching exchange: 14361r, Delegate: 0x5f1e3834dd08[0m
+[0;34m[1784655565.579] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917753 from Retrans Table on exchange 14361r[0m
+[0;34m[1784655565.579] [8481:8481] [SC] Received spake2p msg1[0m
+[0;32m[1784655565.579] [8481:8481] [EM] <<< [E:14361r S:0 M:142917754 (Ack:159214949)] (U) Msg TX from 0000000000000000 to 0:70F3474AF46EAF42 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)[0m
+[0;32m[1784655565.579] [8481:8481] [EM] ??1 [E:14361r S:0 M:142917754] (U) Msg Retransmission to 0:0000000000000000 scheduled for 350ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.579] [8481:8481] [SC] Sent spake2p msg2[0m
+[0;32m[1784655565.579] [8481:8481] [EM] >>> [E:14361r S:0 M:159214950 (Ack:142917754)] (U) Msg RX from 0:70F3474AF46EAF42 [0000] to 0000000000000000 --- Type 0000:24 (SecureChannel:PASE_Pake3) (B:63)[0m
+[0;34m[1784655565.579] [8481:8481] [EM] Found matching exchange: 14361r, Delegate: 0x5f1e3834dd08[0m
+[0;34m[1784655565.579] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917754 from Retrans Table on exchange 14361r[0m
+[0;34m[1784655565.579] [8481:8481] [SC] Received spake2p msg3[0m
+[0;34m[1784655565.579] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 14361[0m
+[0;32m[1784655565.579] [8481:8481] [EM] <<< [E:14361r S:0 M:142917755 (Ack:159214950)] (U) Msg TX from 0000000000000000 to 0:70F3474AF46EAF42 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655565.579] [8481:8481] [EM] ??1 [E:14361r S:0 M:142917755] (U) Msg Retransmission to 0:0000000000000000 scheduled for 356ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655565.579] [8481:8481] [SC] SecureSession[0x5f1e776d8890, LSID:35431]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655565.579] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Activated - Type:1 LSID:35431[0m
+[0;34m[1784655565.579] [8481:8481] [IN] New secure session activated for device <FFFFFFFB00000000, 0>, LSID:35431 PSID:34730![0m
+[0;32m[1784655565.579] [8481:8481] [SVR] Commissioning completed session establishment step[0m
+[0;32m[1784655565.579] [8481:8481] [DIS] Updating services using commissioning mode 0[0m
+[0;32m[1784655565.580] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;32m[1784655565.581] [8481:8481] [SVR] Device completed Rendezvous process[0m
+[0;32m[1784655565.581] [8481:8481] [EM] >>> [E:14362r S:35431 M:235791333] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:02 (IM:ReadRequest) (B:136)[0m
+[0;34m[1784655565.581] [8481:8481] [EM] Handling via exchange: 14362r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.581] [8481:8481] [IM] Received Read request[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] ReadRequestMessage =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 	AttributePathIBs =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0004,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0000,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0001,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0002,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0003,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x30,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_000C,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x28,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0002,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x28,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Attribute = 0x0000_0004,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			Cluster = 0x38,[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 	isFabricFiltered = false, [0m
+[0;34m[1784655565.581] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.581] [8481:8481] [DMG] },[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] IM RH moving to [CanStartReporting][0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Building Reports for ReadHandler with LastReportGeneration = 0x0000000000000000 DirtyGeneration = 0x0000000000000000[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 0 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0000 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 1 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0001 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 2 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0002 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 3 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0003 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 4 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0004 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 5 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0005 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 6 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0006 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 7 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0007 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute 8 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_0008 (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute a is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_000A (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute b is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_000B (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute c is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_000C (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute fffc is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_FFFC (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute fffd is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0038 Endpoint=0x0 AttributeId=0x0000_FFFD (expanded=1)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute fff8 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute fff9 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 38, Attribute fffb is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 28, Attribute 4 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0028 Endpoint=0x0 AttributeId=0x0000_0004 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 28, Attribute 2 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0028 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0028 Endpoint=0x0 AttributeId=0x0000_0002 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute c is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.582] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_ATTRIBUTE(134)[0m
+[1;31m[1784655565.582] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0030, attributeId: 0x0000_000Cerr = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x00000586: General error: 0x86 (UNSUPPORTED_ATTRIBUTE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute 3 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0030 Endpoint=0x0 AttributeId=0x0000_0003 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute 2 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0030 Endpoint=0x0 AttributeId=0x0000_0002 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute 1 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0030 Endpoint=0x0 AttributeId=0x0000_0001 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute 0 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0030 Endpoint=0x0 AttributeId=0x0000_0000 (expanded=0)[0m
+[0;34m[1784655565.582] [8481:8481] [DMG] <RE:Run> Cluster 30, Attribute 4 is dirty[0m
+[0;32m[1784655565.582] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.583] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.583] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=v r=r[0m
+[0;32m[1784655565.583] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.583] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0030 Endpoint=0x0 AttributeId=0x0000_0004 (expanded=0)[0m
+[0;34m[1784655565.583] [8481:8481] [DMG] <RE> Sending report (payload has 732 bytes)...[0m
+[0;32m[1784655565.583] [8481:8481] [EM] <<< [E:14362r S:35431 M:40064451 (Ack:235791333)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:05 (IM:ReportData) (B:766)[0m
+[0;32m[1784655565.583] [8481:8481] [EM] ??1 [E:14362r S:35431 M:40064451] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 371ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.583] [8481:8481] [DMG] <RE> OnReportConfirm: NumReports = 0[0m
+[0;34m[1784655565.583] [8481:8481] [DMG] <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages[0m
+[0;34m[1784655565.583] [8481:8481] [DMG] IM RH moving to [AwaitingDestruction][0m
+[0;34m[1784655565.583] [8481:8481] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[1784655565.583] [8481:8481] [EM] >>> [E:14361r S:0 M:159214951 (Ack:142917755)] (U) Msg RX from 0:70F3474AF46EAF42 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655565.583] [8481:8481] [EM] Found matching exchange: 14361r, Delegate: (nil)[0m
+[0;34m[1784655565.583] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917755 from Retrans Table on exchange 14361r[0m
+[0;32m[1784655565.584] [8481:8481] [EM] >>> [E:14363r S:35431 M:235791334] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:02 (IM:ReadRequest) (B:112)[0m
+[0;34m[1784655565.584] [8481:8481] [EM] Handling via exchange: 14363r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.584] [8481:8481] [IM] Received Read request[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] ReadRequestMessage =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 	AttributePathIBs =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x31,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_FFFC,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x31,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0003,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x46,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0006,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x46,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0007,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x46,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0000,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x46,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0001,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Cluster = 0x46,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			Attribute = 0x0000_0002,[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 	isFabricFiltered = false, [0m
+[0;34m[1784655565.584] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] },[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] IM RH moving to [CanStartReporting][0m
+[0;34m[1784655565.584] [8481:8481] [DMG] Building Reports for ReadHandler with LastReportGeneration = 0x0000000000000000 DirtyGeneration = 0x0000000000000000[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 46, Attribute 2 is dirty[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Read request on unknown cluster - no data version available[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0046 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_CLUSTER(195)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0002err = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x000005C3: General error: 0xc3 (UNSUPPORTED_CLUSTER)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 46, Attribute 1 is dirty[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Read request on unknown cluster - no data version available[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0046 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_CLUSTER(195)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0001err = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x000005C3: General error: 0xc3 (UNSUPPORTED_CLUSTER)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 46, Attribute 0 is dirty[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Read request on unknown cluster - no data version available[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0046 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_CLUSTER(195)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0000err = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x000005C3: General error: 0xc3 (UNSUPPORTED_CLUSTER)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 46, Attribute 7 is dirty[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Read request on unknown cluster - no data version available[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0046 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_CLUSTER(195)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0007err = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x000005C3: General error: 0xc3 (UNSUPPORTED_CLUSTER)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 46, Attribute 6 is dirty[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Read request on unknown cluster - no data version available[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0046 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Failed to read attribute: UNSUPPORTED_CLUSTER(195)[0m
+[1;31m[1784655565.584] [8481:8481] [DMG] Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0006err = src/app/data-model-provider/ActionReturnStatus.cpp:104: IM Error 0x000005C3: General error: 0xc3 (UNSUPPORTED_CLUSTER)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE:Run> Cluster 31, Attribute fffc is dirty[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0031 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0031 e=0 p=v r=r[0m
+[0;32m[1784655565.584] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_0031 Endpoint=0x0 AttributeId=0x0000_FFFC (expanded=1)[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE> Sending report (payload has 152 bytes)...[0m
+[0;32m[1784655565.584] [8481:8481] [EM] <<< [E:14363r S:35431 M:40064452 (Ack:235791334)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:05 (IM:ReportData) (B:186)[0m
+[0;32m[1784655565.584] [8481:8481] [EM] ??1 [E:14363r S:35431 M:40064452] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 342ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE> OnReportConfirm: NumReports = 0[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages[0m
+[0;34m[1784655565.584] [8481:8481] [DMG] IM RH moving to [AwaitingDestruction][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[1784655565.585] [8481:8481] [EM] >>> [E:14362r S:35431 M:235791335 (Ack:40064451)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.585] [8481:8481] [EM] Found matching exchange: 14362r, Delegate: (nil)[0m
+[0;34m[1784655565.585] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064451 from Retrans Table on exchange 14362r[0m
+[0;32m[1784655565.585] [8481:8481] [EM] >>> [E:14364r S:35431 M:235791336] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:65)[0m
+[0;34m[1784655565.585] [8481:8481] [EM] Handling via exchange: 14364r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 				ClusterId = 0x30,[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 				CommandId = 0x0,[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 				0x0 = 60 (unsigned), [0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 				0x1 = 3 (unsigned), [0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.585] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=o r=i[0m
+[0;32m[1784655565.585] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.585] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=a r=i[0m
+[0;32m[1784655565.585] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0000[0m
+[0;32m[1784655565.585] [8481:8481] [FS] GeneralCommissioning: Received ArmFailSafe (60s)[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.585] [8481:8481] [EM] <<< [E:14364r S:35431 M:40064453 (Ack:235791336)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655565.585] [8481:8481] [EM] ??1 [E:14364r S:35431 M:40064453] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 344ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.585] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.586] [8481:8481] [EM] >>> [E:14363r S:35431 M:235791337 (Ack:40064452)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.586] [8481:8481] [EM] Found matching exchange: 14363r, Delegate: (nil)[0m
+[0;34m[1784655565.586] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064452 from Retrans Table on exchange 14363r[0m
+[0;32m[1784655565.586] [8481:8481] [EM] >>> [E:14365r S:35431 M:235791338] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:70)[0m
+[0;34m[1784655565.586] [8481:8481] [EM] Handling via exchange: 14365r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				ClusterId = 0x30,[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				CommandId = 0x2,[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				0x0 = 0 (unsigned), [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				0x1 = "XX" (2 chars), [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 				0x2 = 4 (unsigned), [0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.586] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=o r=i[0m
+[0;32m[1784655565.586] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.586] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0030 e=0 p=a r=i[0m
+[0;32m[1784655565.586] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.586] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0002[0m
+[0;34m[1784655565.589] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655565.589] [8481:8481] [DL] NVS set: chip-config/regulatory-location = 0 (0x0)[0m
+[0;34m[1784655565.591] [8481:8481] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1784655565.591] [8481:8481] [DL] NVS set: chip-config/country-code = "XX"[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.591] [8481:8481] [EM] <<< [E:14365r S:35431 M:40064454 (Ack:235791338)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655565.591] [8481:8481] [EM] ??1 [E:14365r S:35431 M:40064454] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 372ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.591] [8481:8481] [EM] >>> [E:14364r S:35431 M:235791339 (Ack:40064453)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.591] [8481:8481] [EM] Found matching exchange: 14364r, Delegate: (nil)[0m
+[0;34m[1784655565.591] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064453 from Retrans Table on exchange 14364r[0m
+[0;32m[1784655565.591] [8481:8481] [EM] >>> [E:14366r S:35431 M:235791340] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:72)[0m
+[0;34m[1784655565.591] [8481:8481] [EM] Handling via exchange: 14366r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 				ClusterId = 0x38,[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 				CommandId = 0x0,[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 				0x0 = 837970765591669 (unsigned), [0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 				0x1 = 2 (unsigned), [0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.591] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=o r=i[0m
+[0;32m[1784655565.591] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.591] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_0038 e=0 p=a r=i[0m
+[0;32m[1784655565.591] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_0038 Command=0x0000_0000[0m
+[1;31m[1784655565.591] [8481:8481] [DMG] Endpoint=0 Cluster=0x0000_0038 Command=0x0000_0000 status 0x01 (FAILURE) ClusterSpecificCode=2 (no additional context)[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.591] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.591] [8481:8481] [EM] <<< [E:14366r S:35431 M:40064455 (Ack:235791340)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655565.592] [8481:8481] [EM] ??1 [E:14366r S:35431 M:40064455] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.592] [8481:8481] [EM] >>> [E:14365r S:35431 M:235791341 (Ack:40064454)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Found matching exchange: 14365r, Delegate: (nil)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064454 from Retrans Table on exchange 14365r[0m
+[0;32m[1784655565.592] [8481:8481] [EM] >>> [E:14367r S:35431 M:235791342] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:62)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Handling via exchange: 14367r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				CommandId = 0x2,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				0x0 = 2 (unsigned), [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0002[0m
+[0;32m[1784655565.592] [8481:8481] [ZCL] OpCreds: Certificate Chain request received for PAI[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.592] [8481:8481] [EM] <<< [E:14367r S:35431 M:40064456 (Ack:235791342)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:531)[0m
+[0;32m[1784655565.592] [8481:8481] [EM] ??1 [E:14367r S:35431 M:40064456] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.592] [8481:8481] [EM] >>> [E:14366r S:35431 M:235791343 (Ack:40064455)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Found matching exchange: 14366r, Delegate: (nil)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064455 from Retrans Table on exchange 14366r[0m
+[0;32m[1784655565.592] [8481:8481] [EM] >>> [E:14368r S:35431 M:235791344] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:62)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Handling via exchange: 14368r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				CommandId = 0x2,[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 				0x0 = 1 (unsigned), [0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.592] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0002[0m
+[0;32m[1784655565.592] [8481:8481] [ZCL] OpCreds: Certificate Chain request received for DAC[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.592] [8481:8481] [EM] <<< [E:14368r S:35431 M:40064457 (Ack:235791344)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:559)[0m
+[0;32m[1784655565.592] [8481:8481] [EM] ??1 [E:14368r S:35431 M:40064457] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.592] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.592] [8481:8481] [EM] >>> [E:14367r S:35431 M:235791345 (Ack:40064456)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Found matching exchange: 14367r, Delegate: (nil)[0m
+[0;34m[1784655565.592] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064456 from Retrans Table on exchange 14367r[0m
+[0;32m[1784655565.593] [8481:8481] [EM] >>> [E:14369r S:35431 M:235791346] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:94)[0m
+[0;34m[1784655565.593] [8481:8481] [EM] Handling via exchange: 14369r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 				CommandId = 0x0,[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 						0xfb, 0xa2, 0x42, 0xc1, 0x0f, 0x04, 0x13, 0xf9, 0x22, 0x73, 0x43, 0x0a, 0x4a, 0x57, 0xeb, 0x36, 0xd4, 0xaa, 0x87, 0x4c, 0xc3, 0x7e, 0x14, 0xdf, 0x57, 0x5a, 0x46, 0xd8, 0xaf, 0xb2, 0x24, 0x23, [0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 				] (32 bytes)[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.593] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.593] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.593] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.593] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0000[0m
+[0;32m[1784655565.593] [8481:8481] [ZCL] OpCreds: Received an AttestationRequest command[0m
+[0;32m[1784655565.593] [8481:8481] [ZCL] OpCreds: AttestationRequest successful.[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.593] [8481:8481] [EM] <<< [E:14369r S:35431 M:40064458 (Ack:235791346)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:718)[0m
+[0;32m[1784655565.593] [8481:8481] [EM] ??1 [E:14369r S:35431 M:40064458] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 388ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.593] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.593] [8481:8481] [EM] >>> [E:14368r S:35431 M:235791347 (Ack:40064457)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.593] [8481:8481] [EM] Found matching exchange: 14368r, Delegate: (nil)[0m
+[0;34m[1784655565.593] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064457 from Retrans Table on exchange 14368r[0m
+[0;32m[1784655565.599] [8481:8481] [EM] >>> [E:14370r S:35431 M:235791348] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:94)[0m
+[0;34m[1784655565.599] [8481:8481] [EM] Handling via exchange: 14370r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 				CommandId = 0x4,[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 						0xb7, 0xda, 0x06, 0x59, 0xea, 0xcb, 0x5d, 0x11, 0x34, 0x63, 0xa5, 0x02, 0xfd, 0x00, 0x98, 0xe1, 0x84, 0x50, 0x96, 0x25, 0x0a, 0x55, 0xc8, 0x13, 0xed, 0x9b, 0x16, 0x01, 0x9d, 0xe7, 0x2e, 0xcb, [0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 				] (32 bytes)[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.599] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.599] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.599] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.599] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.599] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0004[0m
+[0;32m[1784655565.599] [8481:8481] [ZCL] OpCreds: Received a CSRRequest command[0m
+[0;32m[1784655565.600] [8481:8481] [ZCL] OpCreds: AllocatePendingOperationalKey succeeded[0m
+[0;32m[1784655565.600] [8481:8481] [ZCL] OpCreds: CSRRequest successful.[0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.600] [8481:8481] [EM] <<< [E:14370r S:35431 M:40064459 (Ack:235791348)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:376)[0m
+[0;32m[1784655565.600] [8481:8481] [EM] ??1 [E:14370r S:35431 M:40064459] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 376ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.600] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.600] [8481:8481] [EM] >>> [E:14369r S:35431 M:235791349 (Ack:40064458)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.600] [8481:8481] [EM] Found matching exchange: 14369r, Delegate: (nil)[0m
+[0;34m[1784655565.600] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064458 from Retrans Table on exchange 14369r[0m
+[0;32m[1784655565.602] [8481:8481] [EM] >>> [E:14371r S:35431 M:235791350] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:293)[0m
+[0;34m[1784655565.602] [8481:8481] [EM] Handling via exchange: 14371r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				CommandId = 0xb,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 						0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x14, 0x01, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x14, 0x01, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0xd1, 0x5e, 0x7a, 0x37, 0xf3, 0x18, 0x8c, 0x1f, 0x66, 0x45, 0xd7, 0x77, 0x54, 0x79, 0xdd, 0xa5, 0x9d, 0x85, 0x78, 0x47, 0xc7, 0xaa, 0x17, 0xc7, 0x07, 0x63, 0x59, 0xfb, 0xf1, 0x87, 0x32, 0xd5, 0x1b, 0x03, 0xb4, 0x14, 0x1d, 0x27, 0xa9, 0x1f, 0x89, 0x30, 0xa6, 0xce, 0x7a, 0xff, 0x80, 0xd9, 0xc0, 0xa6, 0xbb, 0x3b, 0xac, 0x81, 0x5c, 0x39, 0x78, 0xd2, 0x13, 0x85, 0x3e, 0x72, 0xa7, 0x79, 0x37, 0x0a, 0x35, 0x01, 0x29, 0x01, 0x18, 0x24, 0x02, 0x60, 0x30, 0x04, 0x14, 0xfb, 0x6d, 0xc2, 0x78, 0xa2, 0xdc, 0x8e, 0xd4, 0xd9, 0x54, 0x5c, 0x6b, 0x95, 0x01, 0x8d, 0xad, 0x3f, 0x55, 0xaf, 0xd8, 0x30, 0x05, 0x14, 0xfb, 0x6d, 0xc2, 0x78, 0xa2, 0xdc, 0x8e, 0xd4, 0xd9, 0x54, 0x5c, 0x6b, 0x95, 0x01, 0x8d, 0xad, 0x3f, 0x55, 0xaf, 0xd8, 0x18, 0x30, 0x0b, 0x40, 0xcc, 0xca, 0x8f, 0x6c, 0x99, 0x83, 0x01, 0x5f, 0xaf, 0xf2, 0xe3, 0xfd, 0x5b, 0x34, 0xec, 0xb3, 0x6b, 0xd0, 0x13, 0xc3, 0xac, 0x54, 0xbb, 0x01, 0x11, 0x1d, 0x2d, 0x4c, 0x94, 0x69, 0xe0, 0x52, 0xc5, 0xba, 0x74, 0x75, 0xed, 0x21, 0x89, 0x22, 0x1f, 0xb7, 0x92, 0x11, 0x4a, 0xc6, 0xe5, 0x18, 0xfe, 0xca, 0xe5, 0x79, 0x5a, 0xef, 0x0c, 0x50, 0x24, 0xb8, 0x35, 0x09, 0xda, 0x8c, 0xe6, 0xd4, 0x18, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				] (231 bytes)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_000B[0m
+[0;32m[1784655565.602] [8481:8481] [ZCL] OpCreds: Received an AddTrustedRootCertificate command[0m
+[0;32m[1784655565.602] [8481:8481] [ZCL] OpCreds: AddTrustedRootCertificate successful.[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.602] [8481:8481] [EM] <<< [E:14371r S:35431 M:40064460 (Ack:235791350)] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:67)[0m
+[0;32m[1784655565.602] [8481:8481] [EM] ??1 [E:14371r S:35431 M:40064460] (S) Msg Retransmission to 0:FFFFFFFB00000000 scheduled for 374ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.602] [8481:8481] [EM] >>> [E:14370r S:35431 M:235791351 (Ack:40064459)] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.602] [8481:8481] [EM] Found matching exchange: 14370r, Delegate: (nil)[0m
+[0;34m[1784655565.602] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064459 from Retrans Table on exchange 14370r[0m
+[0;32m[1784655565.602] [8481:8481] [EM] >>> [E:14372r S:35431 M:235791352] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:566)[0m
+[0;34m[1784655565.602] [8481:8481] [EM] Handling via exchange: 14372r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				CommandId = 0x6,[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 						0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x13, 0x02, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x15, 0x01, 0x24, 0x11, 0x01, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0xc0, 0xfe, 0xe6, 0x56, 0x5d, 0x43, 0x39, 0x6a, 0x69, 0xb1, 0xbe, 0xa6, 0x3b, 0x07, 0xa5, 0xef, 0xeb, 0x77, 0x7a, 0x02, 0x0e, 0x60, 0xb8, 0xd6, 0x87, 0xce, 0xfb, 0x26, 0xc7, 0x38, 0x41, 0x26, 0x85, 0x30, 0xab, 0x6d, 0x5a, 0x4b, 0x83, 0x24, 0x69, 0x4a, 0x57, 0xe3, 0x88, 0xc7, 0x8a, 0x42, 0x2f, 0x7a, 0x39, 0xc4, 0x5f, 0x1b, 0xbd, 0xe1, 0xe3, 0x41, 0xa2, 0xe6, 0xf3, 0x3b, 0x62, 0x5b, 0x37, 0x0a, 0x35, 0x01, 0x28, 0x01, 0x18, 0x24, 0x02, 0x01, 0x36, 0x03, 0x04, 0x02, 0x04, 0x01, 0x18, 0x30, 0x04, 0x14, 0xa0, 0xa0, 0x6e, 0xe5, 0x99, 0xcc, 0x46, 0x3e, 0x0e, 0x3c, 0x0a, 0x40, 0x4b, 0xbf, 0xf6, 0xdc, 0x64, 0xca, 0x34, 0x68, 0x30, 0x05, 0x14, 0xea, 0xfb, 0x1e, 0xdf, 0xa1, 0x6e, 0x79, 0x3e, 0xcf, 0x9f, 0xab, 0x36, 0x26, 0x6c, 0x3f, 0x7a, 0x94, 0x78, 0x91, 0x56, 0x18, 0x30, 0x0b, 0x40, 0xb4, 0x1f, 0x7d, 0x3f, 0x65, 0xfe, 0x85, 0x9e, 0x63, 0x43, 0x0c, 0xc6, 0xbe, 0x3d, 0x64, 0x30, 0x62, 0xdc, 0x80, 0x68, 0x23, 0x26, 0x20, 0x9d, 0x7b, 0xfb, 0xc7, 0x81, 0x52, 0xf6, 0x98, 0x8d, 0xa8, 0xde, 0x59, 0x7d, 0x16, 0xc7, 0xe3, 0x5a, 0x4a, 0x6a, 0xac, 0x83, 0x83, 0x49, 0x0d, 0x76, 0x83, 0xad, 0x18, 0x66, 0xd6, 0x18, 0xbc, 0x81, 0xee, 0x8d, 0x82, 0xed, 0x1c, 0x57, 0x6e, 0x22, 0x18, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				] (241 bytes)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x1 = [[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 						0x15, 0x30, 0x01, 0x01, 0x01, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x14, 0x01, 0x18, 0x26, 0x04, 0x80, 0x22, 0x81, 0x27, 0x26, 0x05, 0x80, 0x25, 0x4d, 0x3a, 0x37, 0x06, 0x24, 0x13, 0x02, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0xc2, 0x40, 0xaf, 0x81, 0xce, 0xf5, 0xdb, 0x09, 0xbd, 0xff, 0x4e, 0xf2, 0xde, 0x50, 0x28, 0x84, 0x9c, 0xdd, 0x77, 0x2b, 0x99, 0x50, 0x44, 0x1e, 0xfb, 0x96, 0x54, 0xcf, 0x8c, 0x6d, 0x3e, 0x53, 0xd5, 0x49, 0xe0, 0x32, 0x07, 0xe9, 0xf1, 0xbe, 0x72, 0x2f, 0xe1, 0x84, 0x7e, 0xec, 0x53, 0xdd, 0xf7, 0xd6, 0x1d, 0xe1, 0xf6, 0x04, 0xa8, 0x35, 0xff, 0xa8, 0x9b, 0x31, 0x4a, 0x92, 0x08, 0x2b, 0x37, 0x0a, 0x35, 0x01, 0x29, 0x01, 0x18, 0x24, 0x02, 0x60, 0x30, 0x04, 0x14, 0xea, 0xfb, 0x1e, 0xdf, 0xa1, 0x6e, 0x79, 0x3e, 0xcf, 0x9f, 0xab, 0x36, 0x26, 0x6c, 0x3f, 0x7a, 0x94, 0x78, 0x91, 0x56, 0x30, 0x05, 0x14, 0xfb, 0x6d, 0xc2, 0x78, 0xa2, 0xdc, 0x8e, 0xd4, 0xd9, 0x54, 0x5c, 0x6b, 0x95, 0x01, 0x8d, 0xad, 0x3f, 0x55, 0xaf, 0xd8, 0x18, 0x30, 0x0b, 0x40, 0xba, 0x9f, 0xe7, 0xc3, 0x1a, 0xca, 0x83, 0x2d, 0x3d, 0xce, 0x75, 0xec, 0x05, 0x24, 0xbc, 0xc9, 0xc6, 0xcb, 0xf5, 0x3f, 0x3c, 0x48, 0xc7, 0x8a, 0x25, 0x89, 0x5a, 0xa7, 0xe3, 0x38, 0x3f, 0x46, 0x17, 0x77, 0xbe, 0x32, 0x81, 0x26, 0xc2, 0x4f, 0xc8, 0x46, 0xf9, 0xda, 0xdb, 0x85, 0xfc, 0x42, 0xad, 0x90, 0x01, 0x7e, 0xbd, 0xdb, 0x28, 0xbd, 0xaa, 0xa3, 0x04, 0x62, 0xdf, 0x29, 0x11, 0xcb, 0x18, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				] (231 bytes)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x2 = [[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 						0x74, 0x65, 0x6d, 0x70, 0x6f, 0x72, 0x61, 0x72, 0x79, 0x20, 0x69, 0x70, 0x6b, 0x20, 0x30, 0x31, [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				] (16 bytes)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x3 = 112233 (unsigned), [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 				0x4 = 65521 (unsigned), [0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: checking f=0 a=p s=0xFFFFFFFB00000000 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655565.602] [8481:8481] [DMG] AccessControl: implicit admin (PASE)[0m
+[0;34m[1784655565.602] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0006[0m
+[0;32m[1784655565.602] [8481:8481] [ZCL] OpCreds: Received an AddNOC command[0m
+[0;32m[1784655565.602] [8481:8481] [FP] Validating NOC chain[0m
+[0;32m[1784655565.603] [8481:8481] [FP] NOC chain validation successful[0m
+[0;32m[1784655565.603] [8481:8481] [FP] Added new fabric at index: 0x1[0m
+[0;32m[1784655565.603] [8481:8481] [FP] Assigned compressed fabric ID: 0xBA705894F9DA9DE1, node ID: 0x0000000000000001[0m
+[0;32m[1784655565.603] [8481:8481] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784655565.603] [8481:8481] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0;32m[1784655565.603] [8481:8481] [TS] Retaining current Last Known Good Time[0m
+[0;34m[1784655565.605] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.608] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.610] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655565.610] [8481:8481] [DMG] AccessControl: validating f=1 p=a a=c s=1 t=0[0m
+[0;32m[1784655565.610] [8481:8481] [DMG]   validating subject 0x000000000001B669[0m
+[0;34m[1784655565.612] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.613] [8481:8481] [EVL] LogEvent event number: 0x0000000000000004 priority: 1, endpoint id:  0x0 cluster id: 0x0000_001F event id: 0x0 Epoch timestamp: 0x0000019F85C2D32D[0m
+[0;32m[1784655565.613] [8481:8481] [ZCL] OpCreds: ACL entry created for Fabric index 0x1 CASE Admin Subject 0x000000000001B669[0m
+[0;34m[1784655565.613] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;32m[1784655565.613] [8481:8481] [DIS] Advertise operational node BA705894F9DA9DE1-0000000000000001[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with _matter._tcp.local[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-0000000000000001._matter._tcp.local[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-0000000000000001._matter._tcp.local[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.613] [8481:8481] [DIS] Responding with _IBA705894F9DA9DE1._sub._matter._tcp.local[0m
+[0;32m[1784655565.613] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Operational device'; instance name: BA705894F9DA9DE1-0000000000000001.[0m
+[0;32m[1784655565.613] [8481:8481] [DIS] mDNS service published: _matter._tcp[0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;32m[1784655565.613] [8481:8481] [ZCL] OpCreds: successfully created fabric index 0x1 via AddNOC[0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.613] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.614] [8481:8481] [EM] <<< [E:14372r S:35431 M:40064461 (Ack:235791352)] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655565.614] [8481:8481] [EM] ??1 [E:14372r S:35431 M:40064461] (S) Msg Retransmission to 1:FFFFFFFB00000000 scheduled for 332ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.614] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.614] [8481:8481] [EM] >>> [E:14371r S:35431 M:235791353 (Ack:40064460)] (S) Msg RX from 1:FFFFFFFB00000000 [9DE1] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.614] [8481:8481] [EM] Found matching exchange: 14371r, Delegate: (nil)[0m
+[0;34m[1784655565.614] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064460 from Retrans Table on exchange 14371r[0m
+[0;32m[1784655565.614] [8481:8481] [EM] >>> [E:14372r S:35431 M:235791354 (Ack:40064461)] (S) Msg RX from 1:FFFFFFFB00000000 [9DE1] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.614] [8481:8481] [EM] Found matching exchange: 14372r, Delegate: (nil)[0m
+[0;34m[1784655565.614] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:40064461 from Retrans Table on exchange 14372r[0m
+[0;32m[1784655565.819] [8481:8481] [EM] >>> [E:14373r S:0 M:159214952] (U) Msg RX from 0:420A3E161FC1585A [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655565.819] [8481:8481] [EM] Handling via exchange: 14373r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655565.819] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776f1500[0m
+[0;32m[1784655565.819] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655565.819] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655565.819] [8481:8481] [SC] Peer (Initiator) assigned session ID 34731[0m
+[0;32m[1784655565.820] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x0000000000000001[0m
+[0;32m[1784655565.820] [8481:8481] [EM] <<< [E:14373r S:0 M:142917756 (Ack:159214952)] (U) Msg TX from 0000000000000000 to 0:420A3E161FC1585A [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;32m[1784655565.820] [8481:8481] [EM] ??1 [E:14373r S:0 M:142917756] (U) Msg Retransmission to 0:0000000000000000 scheduled for 371ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655565.820] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655565.822] [8481:8481] [EM] >>> [E:14373r S:0 M:159214953 (Ack:142917756)] (U) Msg RX from 0:420A3E161FC1585A [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;34m[1784655565.822] [8481:8481] [EM] Found matching exchange: 14373r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655565.822] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917756 from Retrans Table on exchange 14373r[0m
+[0;32m[1784655565.822] [8481:8481] [SC] Received Sigma3 msg[0m
+[1;31m[1784655565.822] [8481:8481] [SC] The device does not support GetClock_RealTimeMS() API: src/protocols/secure_channel/CASESession.cpp:2276: CHIP Error 0x0000006C: Required feature not supported by this configuration.  Falling back to Last Known Good UTC Time[0m
+[0;34m[1784655565.826] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.828] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.829] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.829] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 14373[0m
+[0;32m[1784655565.830] [8481:8481] [EM] <<< [E:14373r S:0 M:142917757 (Ack:159214953)] (U) Msg TX from 0000000000000000 to 0:420A3E161FC1585A [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655565.830] [8481:8481] [EM] ??1 [E:14373r S:0 M:142917757] (U) Msg Retransmission to 0:0000000000000000 scheduled for 386ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655565.830] [8481:8481] [SC] SecureSession[0x5f1e776d8da0, LSID:35432]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655565.830] [8481:8481] [IN] SecureSession[0x5f1e776d8da0]: Activated - Type:2 LSID:35432[0m
+[0;34m[1784655565.830] [8481:8481] [IN] New secure session activated for device <000000000001B669, 1>, LSID:35432 PSID:34731![0m
+[0;32m[1784655565.830] [8481:8481] [IN] CASE Session established to peer: <000000000001B669, 1>[0m
+[0;34m[1784655565.830] [8481:8481] [IN] SecureSession[0x5f1e776f3f00]: Allocated Type:2 LSID:35433[0m
+[0;34m[1784655565.830] [8481:8481] [SC] Allocated SecureSession (0x5f1e776f3f00) - waiting for Sigma1 msg[0m
+[0;32m[1784655565.831] [8481:8481] [EM] >>> [E:14374r S:35432 M:198042586] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0001:08 (IM:InvokeCommandRequest) (B:59)[0m
+[0;34m[1784655565.831] [8481:8481] [EM] Handling via exchange: 14374r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] {[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 				ClusterId = 0x30,[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 				CommandId = 0x4,[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 		[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] },[0m
+[0;32m[1784655565.831] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0030 e=0 p=o r=i[0m
+[0;32m[1784655565.831] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;32m[1784655565.831] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0030 e=0 p=a r=i[0m
+[0;32m[1784655565.831] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;34m[1784655565.831] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0004[0m
+[0;32m[1784655565.831] [8481:8481] [FS] GeneralCommissioning: Received CommissioningComplete[0m
+[0;34m[1784655565.833] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.834] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655565.834] [8481:8481] [FP] Metadata for Fabric 0x1 persisted to storage.[0m
+[0;34m[1784655565.836] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.838] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.840] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.842] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655565.842] [8481:8481] [TS] Committing Last Known Good Time to storage: 2023-10-14T01:16:48[0m
+[0;34m[1784655565.843] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655565.845] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655565.845] [8481:8481] [ZCL] OpCreds: Fabric index 0x1 was committed to storage. Compressed Fabric Id 0xBA705894F9DA9DE1, FabricId 0000000000000001, NodeId 0000000000000001, VendorId 0xFFF1[0m
+[0;34m[1784655565.847] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655565.847] [8481:8481] [FS] GeneralCommissioning: Successfully committed pending fabric data[0m
+[0;32m[1784655565.847] [8481:8481] [FS] Fail-safe cleanly disarmed[0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655565.847] [8481:8481] [EM] <<< [E:14374r S:35432 M:98172264 (Ack:198042586)] (S) Msg TX from 0000000000000001 to 1:000000000001B669 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:50107] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655565.847] [8481:8481] [EM] ??1 [E:14374r S:35432 M:98172264] (S) Msg Retransmission to 1:000000000001B669 scheduled for 340ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655565.847] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655565.847] [8481:8481] [SVR] Commissioning completed successfully[0m
+[0;32m[1784655565.847] [8481:8481] [DIS] Updating services using commissioning mode 0[0m
+[0;32m[1784655565.847] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;34m[1784655565.850] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;32m[1784655565.850] [8481:8481] [DIS] Advertise operational node BA705894F9DA9DE1-0000000000000001[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with _matter._tcp.local[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-0000000000000001._matter._tcp.local[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-0000000000000001._matter._tcp.local[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655565.850] [8481:8481] [DIS] Responding with _IBA705894F9DA9DE1._sub._matter._tcp.local[0m
+[0;32m[1784655565.850] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Operational device'; instance name: BA705894F9DA9DE1-0000000000000001.[0m
+[0;32m[1784655565.851] [8481:8481] [DIS] mDNS service published: _matter._tcp[0m
+[0;34m[1784655565.851] [8481:8481] [IN] Expiring all PASE sessions[0m
+[0;34m[1784655565.851] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: MarkForEviction Type:1 LSID:35431[0m
+[0;32m[1784655565.851] [8481:8481] [SC] SecureSession[0x5f1e776d8890, LSID:35431]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655565.851] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Released - Type:1 LSID:35431[0m
+[0;32m[1784655565.851] [8481:8481] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;32m[1784655565.851] [8481:8481] [EM] >>> [E:14373r S:0 M:159214954 (Ack:142917757)] (U) Msg RX from 0:420A3E161FC1585A [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655565.851] [8481:8481] [EM] Found matching exchange: 14373r, Delegate: (nil)[0m
+[0;34m[1784655565.851] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917757 from Retrans Table on exchange 14373r[0m
+[0;32m[1784655565.852] [8481:8481] [EM] >>> [E:14374r S:35432 M:198042587 (Ack:98172264)] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655565.852] [8481:8481] [EM] Found matching exchange: 14374r, Delegate: (nil)[0m
+[0;34m[1784655565.852] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:98172264 from Retrans Table on exchange 14374r[0m
+[0;32m[1784655566.115] [8481:8481] [EM] >>> [E:58249r S:0 M:112966096] (U) Msg RX from 0:6F4695C0F2B6D812 [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655566.115] [8481:8481] [EM] Handling via exchange: 58249r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655566.115] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776f1500[0m
+[0;32m[1784655566.115] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655566.115] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655566.115] [8481:8481] [SC] Peer (Initiator) assigned session ID 19248[0m
+[0;32m[1784655566.115] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x0000000000000001[0m
+[0;32m[1784655566.116] [8481:8481] [EM] <<< [E:58249r S:0 M:142917758 (Ack:112966096)] (U) Msg TX from 0000000000000000 to 0:6F4695C0F2B6D812 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:60120] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;32m[1784655566.116] [8481:8481] [EM] ??1 [E:58249r S:0 M:142917758] (U) Msg Retransmission to 0:0000000000000000 scheduled for 355ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.116] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655566.117] [8481:8481] [EM] >>> [E:58249r S:0 M:112966097 (Ack:142917758)] (U) Msg RX from 0:6F4695C0F2B6D812 [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;34m[1784655566.117] [8481:8481] [EM] Found matching exchange: 58249r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655566.117] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917758 from Retrans Table on exchange 58249r[0m
+[0;32m[1784655566.117] [8481:8481] [SC] Received Sigma3 msg[0m
+[1;31m[1784655566.117] [8481:8481] [SC] The device does not support GetClock_RealTimeMS() API: src/protocols/secure_channel/CASESession.cpp:2276: CHIP Error 0x0000006C: Required feature not supported by this configuration.  Falling back to Last Known Good UTC Time[0m
+[0;34m[1784655566.121] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.124] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.126] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.126] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 58249[0m
+[0;32m[1784655566.126] [8481:8481] [EM] <<< [E:58249r S:0 M:142917759 (Ack:112966097)] (U) Msg TX from 0000000000000000 to 0:6F4695C0F2B6D812 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:60120] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655566.126] [8481:8481] [EM] ??1 [E:58249r S:0 M:142917759] (U) Msg Retransmission to 0:0000000000000000 scheduled for 378ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.126] [8481:8481] [SC] SecureSession[0x5f1e776f3f00, LSID:35433]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655566.126] [8481:8481] [IN] SecureSession[0x5f1e776f3f00]: Activated - Type:2 LSID:35433[0m
+[0;34m[1784655566.126] [8481:8481] [IN] New secure session activated for device <000000000001B669, 1>, LSID:35433 PSID:19248![0m
+[0;32m[1784655566.126] [8481:8481] [IN] CASE Session established to peer: <000000000001B669, 1>[0m
+[0;34m[1784655566.126] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Allocated Type:2 LSID:35434[0m
+[0;34m[1784655566.126] [8481:8481] [SC] Allocated SecureSession (0x5f1e776d8890) - waiting for Sigma1 msg[0m
+[0;32m[1784655566.127] [8481:8481] [EM] >>> [E:58250r S:35433 M:167592348] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0001:08 (IM:InvokeCommandRequest) (B:65)[0m
+[0;34m[1784655566.127] [8481:8481] [EM] Handling via exchange: 58250r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] {[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 				ClusterId = 0x30,[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 				CommandId = 0x0,[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 				0x0 = 60 (unsigned), [0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 				0x1 = 0 (unsigned), [0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 		[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] },[0m
+[0;32m[1784655566.127] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0030 e=0 p=o r=i[0m
+[0;32m[1784655566.127] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;32m[1784655566.127] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_0030 e=0 p=a r=i[0m
+[0;32m[1784655566.127] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_0030 Command=0x0000_0000[0m
+[0;32m[1784655566.127] [8481:8481] [FS] GeneralCommissioning: Received ArmFailSafe (60s)[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655566.127] [8481:8481] [EM] <<< [E:58250r S:35433 M:243244234 (Ack:167592348)] (S) Msg TX from 0000000000000001 to 1:000000000001B669 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:60120] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655566.127] [8481:8481] [EM] ??1 [E:58250r S:35433 M:243244234] (S) Msg Retransmission to 1:000000000001B669 scheduled for 366ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655566.127] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655566.127] [8481:8481] [EM] >>> [E:58249r S:0 M:112966098 (Ack:142917759)] (U) Msg RX from 0:6F4695C0F2B6D812 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655566.127] [8481:8481] [EM] Found matching exchange: 58249r, Delegate: (nil)[0m
+[0;34m[1784655566.127] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917759 from Retrans Table on exchange 58249r[0m
+[0;32m[1784655566.128] [8481:8481] [EM] >>> [E:58250r S:35433 M:167592349 (Ack:243244234)] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655566.128] [8481:8481] [EM] Found matching exchange: 58250r, Delegate: (nil)[0m
+[0;34m[1784655566.128] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:243244234 from Retrans Table on exchange 58250r[0m
+[0;32m[1784655566.394] [8481:8481] [EM] >>> [E:39382r S:0 M:79380063] (U) Msg RX from 0:FF5A2E088CC3F8C8 [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655566.394] [8481:8481] [EM] Handling via exchange: 39382r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655566.394] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776ee990[0m
+[0;32m[1784655566.394] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655566.394] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655566.394] [8481:8481] [SC] Peer (Initiator) assigned session ID 8085[0m
+[0;32m[1784655566.395] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x0000000000000001[0m
+[0;32m[1784655566.395] [8481:8481] [EM] <<< [E:39382r S:0 M:142917760 (Ack:79380063)] (U) Msg TX from 0000000000000000 to 0:FF5A2E088CC3F8C8 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:59311] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;32m[1784655566.395] [8481:8481] [EM] ??1 [E:39382r S:0 M:142917760] (U) Msg Retransmission to 0:0000000000000000 scheduled for 374ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.395] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655566.396] [8481:8481] [EM] >>> [E:39382r S:0 M:79380064 (Ack:142917760)] (U) Msg RX from 0:FF5A2E088CC3F8C8 [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;34m[1784655566.396] [8481:8481] [EM] Found matching exchange: 39382r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655566.396] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917760 from Retrans Table on exchange 39382r[0m
+[0;32m[1784655566.396] [8481:8481] [SC] Received Sigma3 msg[0m
+[1;31m[1784655566.396] [8481:8481] [SC] The device does not support GetClock_RealTimeMS() API: src/protocols/secure_channel/CASESession.cpp:2276: CHIP Error 0x0000006C: Required feature not supported by this configuration.  Falling back to Last Known Good UTC Time[0m
+[0;34m[1784655566.399] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.402] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.404] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.404] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 39382[0m
+[0;32m[1784655566.404] [8481:8481] [EM] <<< [E:39382r S:0 M:142917761 (Ack:79380064)] (U) Msg TX from 0000000000000000 to 0:FF5A2E088CC3F8C8 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:59311] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655566.404] [8481:8481] [EM] ??1 [E:39382r S:0 M:142917761] (U) Msg Retransmission to 0:0000000000000000 scheduled for 339ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.405] [8481:8481] [SC] SecureSession[0x5f1e776d8890, LSID:35434]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655566.405] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Activated - Type:2 LSID:35434[0m
+[0;34m[1784655566.405] [8481:8481] [IN] New secure session activated for device <000000000001B669, 1>, LSID:35434 PSID:8085![0m
+[0;32m[1784655566.405] [8481:8481] [IN] CASE Session established to peer: <000000000001B669, 1>[0m
+[0;34m[1784655566.405] [8481:8481] [IN] SecureSession[0x5f1e776f4a30]: Allocated Type:2 LSID:35435[0m
+[0;34m[1784655566.405] [8481:8481] [SC] Allocated SecureSession (0x5f1e776f4a30) - waiting for Sigma1 msg[0m
+[0;32m[1784655566.406] [8481:8481] [EM] >>> [E:39383r S:35434 M:230867448] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0001:08 (IM:InvokeCommandRequest) (B:96)[0m
+[0;34m[1784655566.406] [8481:8481] [EM] Handling via exchange: 39383r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] {[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				CommandId = 0x4,[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 						0x60, 0x9c, 0x3a, 0x47, 0xb6, 0xf0, 0x7d, 0x85, 0xf2, 0x6b, 0x95, 0xc7, 0x4a, 0x5b, 0x33, 0x74, 0xa1, 0xc0, 0x6b, 0x37, 0x05, 0x1e, 0x5d, 0x0a, 0x39, 0xc5, 0xa6, 0x54, 0x24, 0xe3, 0xa0, 0xd6, [0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				] (32 bytes)[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 				0x1 = true, [0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 		[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] },[0m
+[0;32m[1784655566.406] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655566.406] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;32m[1784655566.406] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655566.406] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;34m[1784655566.406] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0004[0m
+[0;32m[1784655566.406] [8481:8481] [ZCL] OpCreds: Received a CSRRequest command[0m
+[0;32m[1784655566.407] [8481:8481] [ZCL] OpCreds: AllocatePendingOperationalKey succeeded[0m
+[0;32m[1784655566.407] [8481:8481] [ZCL] OpCreds: CSRRequest successful.[0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655566.407] [8481:8481] [EM] <<< [E:39383r S:35434 M:226890748 (Ack:230867448)] (S) Msg TX from 0000000000000001 to 1:000000000001B669 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:59311] --- Type 0001:09 (IM:InvokeCommandResponse) (B:377)[0m
+[0;32m[1784655566.407] [8481:8481] [EM] ??1 [E:39383r S:35434 M:226890748] (S) Msg Retransmission to 1:000000000001B669 scheduled for 352ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655566.407] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655566.407] [8481:8481] [EM] >>> [E:39382r S:0 M:79380065 (Ack:142917761)] (U) Msg RX from 0:FF5A2E088CC3F8C8 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655566.407] [8481:8481] [EM] Found matching exchange: 39382r, Delegate: (nil)[0m
+[0;34m[1784655566.407] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917761 from Retrans Table on exchange 39382r[0m
+[0;32m[1784655566.407] [8481:8481] [EM] >>> [E:39383r S:35434 M:230867449 (Ack:226890748)] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655566.407] [8481:8481] [EM] Found matching exchange: 39383r, Delegate: (nil)[0m
+[0;34m[1784655566.407] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:226890748 from Retrans Table on exchange 39383r[0m
+[0;32m[1784655566.726] [8481:8481] [EM] >>> [E:16365r S:0 M:219625641] (U) Msg RX from 0:A6F0457430AA67AF [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655566.726] [8481:8481] [EM] Handling via exchange: 16365r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655566.726] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776eaac0[0m
+[0;32m[1784655566.726] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655566.726] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655566.726] [8481:8481] [SC] Peer (Initiator) assigned session ID 27482[0m
+[0;32m[1784655566.726] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x0000000000000001[0m
+[0;32m[1784655566.727] [8481:8481] [EM] <<< [E:16365r S:0 M:142917762 (Ack:219625641)] (U) Msg TX from 0000000000000000 to 0:A6F0457430AA67AF [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:33498] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;32m[1784655566.727] [8481:8481] [EM] ??1 [E:16365r S:0 M:142917762] (U) Msg Retransmission to 0:0000000000000000 scheduled for 389ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.727] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655566.728] [8481:8481] [EM] >>> [E:16365r S:0 M:219625642 (Ack:142917762)] (U) Msg RX from 0:A6F0457430AA67AF [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;34m[1784655566.728] [8481:8481] [EM] Found matching exchange: 16365r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655566.728] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917762 from Retrans Table on exchange 16365r[0m
+[0;32m[1784655566.728] [8481:8481] [SC] Received Sigma3 msg[0m
+[1;31m[1784655566.728] [8481:8481] [SC] The device does not support GetClock_RealTimeMS() API: src/protocols/secure_channel/CASESession.cpp:2276: CHIP Error 0x0000006C: Required feature not supported by this configuration.  Falling back to Last Known Good UTC Time[0m
+[0;34m[1784655566.732] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.735] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.738] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655566.738] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 16365[0m
+[0;32m[1784655566.738] [8481:8481] [EM] <<< [E:16365r S:0 M:142917763 (Ack:219625642)] (U) Msg TX from 0000000000000000 to 0:A6F0457430AA67AF [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:33498] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655566.739] [8481:8481] [EM] ??1 [E:16365r S:0 M:142917763] (U) Msg Retransmission to 0:0000000000000000 scheduled for 388ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655566.740] [8481:8481] [SC] SecureSession[0x5f1e776f4a30, LSID:35435]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655566.740] [8481:8481] [IN] SecureSession[0x5f1e776f4a30]: Activated - Type:2 LSID:35435[0m
+[0;34m[1784655566.740] [8481:8481] [IN] New secure session activated for device <000000000001B669, 1>, LSID:35435 PSID:27482![0m
+[0;32m[1784655566.740] [8481:8481] [IN] CASE Session established to peer: <000000000001B669, 1>[0m
+[0;34m[1784655566.740] [8481:8481] [IN] SecureSession[0x5f1e776f7080]: Allocated Type:2 LSID:35436[0m
+[0;34m[1784655566.740] [8481:8481] [SC] Allocated SecureSession (0x5f1e776f7080) - waiting for Sigma1 msg[0m
+[0;32m[1784655566.740] [8481:8481] [EM] >>> [E:16366r S:35435 M:35672400] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0001:02 (IM:ReadRequest) (B:51)[0m
+[0;34m[1784655566.740] [8481:8481] [EM] Handling via exchange: 16366r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655566.740] [8481:8481] [IM] Received Read request[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] ReadRequestMessage =[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] {[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 	AttributePathIBs =[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 		AttributePathIB =[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 			Endpoint = 0x0,[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 			Cluster = 0x3e,[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 			Attribute = 0x0000_0004,[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 		}[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 			[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 		[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 	isFabricFiltered = true, [0m
+[0;34m[1784655566.740] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] },[0m
+[0;34m[1784655566.740] [8481:8481] [DMG] IM RH moving to [CanStartReporting][0m
+[0;34m[1784655566.740] [8481:8481] [DMG] Building Reports for ReadHandler with LastReportGeneration = 0x0000000000000000 DirtyGeneration = 0x0000000000000000[0m
+[0;34m[1784655566.741] [8481:8481] [DMG] <RE:Run> Cluster 3e, Attribute 4 is dirty[0m
+[0;32m[1784655566.741] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=v r=r[0m
+[0;32m[1784655566.741] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;32m[1784655566.741] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=v r=r[0m
+[0;32m[1784655566.741] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;34m[1784655566.741] [8481:8481] [DMG] Reading attribute: Cluster=0x0000_003E Endpoint=0x0 AttributeId=0x0000_0004 (expanded=0)[0m
+[0;34m[1784655566.741] [8481:8481] [DMG] <RE> Sending report (payload has 269 bytes)...[0m
+[0;32m[1784655566.741] [8481:8481] [EM] <<< [E:16366r S:35435 M:237639529 (Ack:35672400)] (S) Msg TX from 0000000000000001 to 1:000000000001B669 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:33498] --- Type 0001:05 (IM:ReportData) (B:303)[0m
+[0;32m[1784655566.741] [8481:8481] [EM] ??1 [E:16366r S:35435 M:237639529] (S) Msg Retransmission to 1:000000000001B669 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655566.741] [8481:8481] [DMG] <RE> OnReportConfirm: NumReports = 0[0m
+[0;34m[1784655566.741] [8481:8481] [DMG] <RE> ReportsInFlight = 0 with readHandler 0, RE has no more messages[0m
+[0;34m[1784655566.741] [8481:8481] [DMG] IM RH moving to [AwaitingDestruction][0m
+[0;34m[1784655566.741] [8481:8481] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[1784655566.742] [8481:8481] [EM] >>> [E:16365r S:0 M:219625643 (Ack:142917763)] (U) Msg RX from 0:A6F0457430AA67AF [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655566.742] [8481:8481] [EM] Found matching exchange: 16365r, Delegate: (nil)[0m
+[0;34m[1784655566.742] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917763 from Retrans Table on exchange 16365r[0m
+[0;32m[1784655566.742] [8481:8481] [EM] >>> [E:16366r S:35435 M:35672401 (Ack:237639529)] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655566.742] [8481:8481] [EM] Found matching exchange: 16366r, Delegate: (nil)[0m
+[0;34m[1784655566.742] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:237639529 from Retrans Table on exchange 16366r[0m
+[0;32m[1784655567.047] [8481:8481] [EM] >>> [E:24731r S:0 M:107912258] (U) Msg RX from 0:3AA0DF03D4B84484 [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655567.047] [8481:8481] [EM] Handling via exchange: 24731r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655567.047] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776eaac0[0m
+[0;32m[1784655567.047] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655567.047] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655567.047] [8481:8481] [SC] Peer (Initiator) assigned session ID 51875[0m
+[0;32m[1784655567.048] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x0000000000000001[0m
+[0;32m[1784655567.048] [8481:8481] [EM] <<< [E:24731r S:0 M:142917764 (Ack:107912258)] (U) Msg TX from 0000000000000000 to 0:3AA0DF03D4B84484 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:43391] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;32m[1784655567.048] [8481:8481] [EM] ??1 [E:24731r S:0 M:142917764] (U) Msg Retransmission to 0:0000000000000000 scheduled for 365ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655567.049] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655567.050] [8481:8481] [EM] >>> [E:24731r S:0 M:107912259 (Ack:142917764)] (U) Msg RX from 0:3AA0DF03D4B84484 [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:598)[0m
+[0;34m[1784655567.050] [8481:8481] [EM] Found matching exchange: 24731r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655567.050] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917764 from Retrans Table on exchange 24731r[0m
+[0;32m[1784655567.050] [8481:8481] [SC] Received Sigma3 msg[0m
+[1;31m[1784655567.050] [8481:8481] [SC] The device does not support GetClock_RealTimeMS() API: src/protocols/secure_channel/CASESession.cpp:2276: CHIP Error 0x0000006C: Required feature not supported by this configuration.  Falling back to Last Known Good UTC Time[0m
+[0;34m[1784655567.054] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655567.056] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655567.058] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655567.058] [8481:8481] [SC] Sending status report. Protocol code 0, exchange 24731[0m
+[0;32m[1784655567.059] [8481:8481] [EM] <<< [E:24731r S:0 M:142917765 (Ack:107912259)] (U) Msg TX from 0000000000000000 to 0:3AA0DF03D4B84484 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:43391] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[1784655567.059] [8481:8481] [EM] ??1 [E:24731r S:0 M:142917765] (U) Msg Retransmission to 0:0000000000000000 scheduled for 363ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655567.059] [8481:8481] [SC] SecureSession[0x5f1e776f7080, LSID:35436]: State change 'kEstablishing' --> 'kActive'[0m
+[0;34m[1784655567.059] [8481:8481] [IN] SecureSession[0x5f1e776f7080]: Activated - Type:2 LSID:35436[0m
+[0;34m[1784655567.059] [8481:8481] [IN] New secure session activated for device <000000000001B669, 1>, LSID:35436 PSID:51875![0m
+[0;32m[1784655567.059] [8481:8481] [IN] CASE Session established to peer: <000000000001B669, 1>[0m
+[0;34m[1784655567.059] [8481:8481] [IN] SecureSession[0x5f1e776f6d70]: Allocated Type:2 LSID:35437[0m
+[0;34m[1784655567.059] [8481:8481] [SC] Allocated SecureSession (0x5f1e776f6d70) - waiting for Sigma1 msg[0m
+[0;32m[1784655567.060] [8481:8481] [EM] >>> [E:24732r S:35436 M:113581051] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0001:08 (IM:InvokeCommandRequest) (B:330)[0m
+[0;34m[1784655567.060] [8481:8481] [EM] Handling via exchange: 24732r, Delegate: 0x5f1e38355ac8[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] InvokeRequestMessage =[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] {[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	suppressResponse = false, [0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	timedRequest = false, [0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	InvokeRequests =[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	[[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 		CommandDataIB =[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 		{[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			CommandPathIB =[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 				EndpointId = 0x0,[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 				ClusterId = 0x3e,[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 				CommandId = 0x7,[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			CommandFields = [0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			{[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 				0x0 = [[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 						0x15, 0x30, 0x01, 0x14, 0x7c, 0xee, 0x8d, 0x4b, 0x74, 0xf6, 0x22, 0x79, 0x98, 0x36, 0x79, 0xe9, 0xb5, 0x7e, 0x2f, 0xa4, 0xa3, 0xf8, 0x53, 0xe5, 0x24, 0x02, 0x01, 0x37, 0x03, 0x24, 0x14, 0x01, 0x18, 0x26, 0x04, 0x80, 0x9d, 0x9e, 0x25, 0x26, 0x05, 0xff, 0xd0, 0x7f, 0x27, 0x37, 0x06, 0x27, 0x11, 0x88, 0x77, 0x66, 0x55, 0x44, 0x33, 0x22, 0x11, 0x24, 0x15, 0x01, 0x18, 0x24, 0x07, 0x01, 0x24, 0x08, 0x01, 0x30, 0x09, 0x41, 0x04, 0xc2, 0x18, 0x09, 0x60, 0xa0, 0x1b, 0x77, 0xfc, 0x5d, 0x8b, 0x30, 0x9a, 0x34, 0x6d, 0xdb, 0x7b, 0x7b, 0x89, 0x35, 0xbd, 0xc5, 0x83, 0x38, 0x3b, 0xaa, 0x03, 0xf5, 0x06, 0x82, 0x0d, 0x24, 0x6a, 0x35, 0x3a, 0x24, 0x77, 0x97, 0xf2, 0xad, 0x9d, 0xfb, 0xf6, 0x46, 0xe8, 0xe8, 0xcf, 0x83, 0xa1, 0x27, 0x0b, 0x0f, 0x19, 0xb9, 0xac, 0xa6, 0xf7, 0x13, 0x7a, 0x99, 0x64, 0x61, 0xad, 0x7a, 0xad, 0x37, 0x0a, 0x35, 0x01, 0x28, 0x01, 0x18, 0x24, 0x02, 0x01, 0x36, 0x03, 0x04, 0x01, 0x04, 0x02, 0x18, 0x30, 0x04, 0x14, 0x83, 0xc5, 0x1e, 0xc9, 0xae, 0x66, 0x04, 0x9d, 0x1d, 0xa8, 0x14, 0x31, 0x1e, 0x67, 0x9d, 0xb8, 0xd0, 0x62, 0x59, 0x29, 0x30, 0x05, 0x14, 0xfb, 0x6d, 0xc2, 0x78, 0xa2, 0xdc, 0x8e, 0xd4, 0xd9, 0x54, 0x5c, 0x6b, 0x95, 0x01, 0x8d, 0xad, 0x3f, 0x55, 0xaf, 0xd8, 0x18, 0x30, 0x0b, 0x40, 0x33, 0xf0, 0x4c, 0xe7, 0xa6, 0x8f, 0x0b, 0xa0, 0x73, 0xa7, 0x8b, 0x99, 0xee, 0xc8, 0x12, 0x56, 0xc3, 0x4b, 0xb7, 0x36, 0xbc, 0x5a, 0x5a, 0x67, 0xd8, 0x85, 0x5a, 0x38, 0x5c, 0x2e, 0xde, 0xa7, 0xb1, 0xe2, 0xf3, 0x56, 0xab, 0xaf, 0x80, 0x6e, 0x27, 0x4b, 0xd2, 0x9c, 0xa4, 0x06, 0xa0, 0x93, 0x25, 0x3f, 0x2c, 0x98, 0x6d, 0x42, 0x95, 0xd5, 0xdc, 0x8f, 0xdb, 0xe6, 0xbd, 0x5f, 0xf8, 0x0b, 0x18, [0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 				] (267 bytes)[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 			},[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 		},[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 		[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	],[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] 	InteractionModelRevision = 12[0m
+[0;34m[1784655567.060] [8481:8481] [DMG] },[0m
+[0;32m[1784655567.061] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=o r=i[0m
+[0;32m[1784655567.061] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;32m[1784655567.061] [8481:8481] [DMG] AccessControl: checking f=1 a=c s=0x000000000001B669 t= c=0x0000_003E e=0 p=a r=i[0m
+[0;32m[1784655567.061] [8481:8481] [DMG] AccessControl: allowed[0m
+[0;34m[1784655567.061] [8481:8481] [DMG] Received command for Endpoint=0 Cluster=0x0000_003E Command=0x0000_0007[0m
+[0;32m[1784655567.061] [8481:8481] [ZCL] OpCreds: Received an UpdateNOC command[0m
+[0;32m[1784655567.061] [8481:8481] [FP] Validating NOC chain[0m
+[0;32m[1784655567.061] [8481:8481] [FP] NOC chain validation successful[0m
+[0;32m[1784655567.061] [8481:8481] [FP] Updated fabric at index: 0x1, Node ID: 0x1122334455667788[0m
+[0;32m[1784655567.061] [8481:8481] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[1784655567.061] [8481:8481] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0;32m[1784655567.061] [8481:8481] [TS] Retaining current Last Known Good Time[0m
+[0;34m[1784655567.063] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655567.066] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;34m[1784655567.069] [8481:8481] [DL] Wrote settings to /tmp/chip_kvs_test[0m
+[0;32m[1784655567.069] [8481:8481] [DIS] Updating services using commissioning mode 0[0m
+[0;32m[1784655567.069] [8481:8481] [DIS] CHIP minimal mDNS started advertising.[0m
+[0;34m[1784655567.071] [8481:8481] [DL] Using WiFi MAC for hostname[0m
+[0;32m[1784655567.071] [8481:8481] [DIS] Advertise operational node BA705894F9DA9DE1-1122334455667788[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with _matter._tcp.local[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-1122334455667788._matter._tcp.local[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with BA705894F9DA9DE1-1122334455667788._matter._tcp.local[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with 080027AE1A43.local[0m
+[0;34m[1784655567.071] [8481:8481] [DIS] Responding with _IBA705894F9DA9DE1._sub._matter._tcp.local[0m
+[0;32m[1784655567.071] [8481:8481] [DIS] CHIP minimal mDNS configured as 'Operational device'; instance name: BA705894F9DA9DE1-1122334455667788.[0m
+[0;32m[1784655567.072] [8481:8481] [DIS] mDNS service published: _matter._tcp[0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command handler moving to [NewRespons][0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command handler moving to [ Preparing][0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command handler moving to [AddingComm][0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command handler moving to [AddedComma][0m
+[0;32m[1784655567.072] [8481:8481] [ZCL] OpCreds: UpdateNOC successful.[0m
+[0;34m[1784655567.072] [8481:8481] [IN] Expiring all sessions for fabric 0x1!![0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776d8da0]: MarkForEviction Type:2 LSID:35432[0m
+[0;32m[1784655567.072] [8481:8481] [SC] SecureSession[0x5f1e776d8da0, LSID:35432]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776d8da0]: Released - Type:2 LSID:35432[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776f3f00]: MarkForEviction Type:2 LSID:35433[0m
+[0;32m[1784655567.072] [8481:8481] [SC] SecureSession[0x5f1e776f3f00, LSID:35433]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776f3f00]: Released - Type:2 LSID:35433[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: MarkForEviction Type:2 LSID:35434[0m
+[0;32m[1784655567.072] [8481:8481] [SC] SecureSession[0x5f1e776d8890, LSID:35434]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776d8890]: Released - Type:2 LSID:35434[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776f4a30]: MarkForEviction Type:2 LSID:35435[0m
+[0;32m[1784655567.072] [8481:8481] [SC] SecureSession[0x5f1e776f4a30, LSID:35435]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776f4a30]: Released - Type:2 LSID:35435[0m
+[0;34m[1784655567.072] [8481:8481] [IN] SecureSession[0x5f1e776f7080]: MarkForEviction Type:2 LSID:35436[0m
+[0;32m[1784655567.072] [8481:8481] [SC] SecureSession[0x5f1e776f7080, LSID:35436]: State change 'kActive' --> 'kPendingEviction'[0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 1[0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Decreasing reference count for CommandHandlerImpl, remaining 0[0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command handler moving to [AwaitingDe][0m
+[0;32m[1784655567.072] [8481:8481] [EM] <<< [E:24732r S:35436 M:73655398 (Ack:113581051)] (S) Msg TX from 0000000000000001 to 1:000000000001B669 [9DE1] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:43391] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)[0m
+[0;32m[1784655567.072] [8481:8481] [EM] ??1 [E:24732r S:35436 M:73655398] (S) Msg Retransmission to 1:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[1784655567.072] [8481:8481] [DMG] Command response sender moving to [AllInvokeR][0m
+[0;32m[1784655567.072] [8481:8481] [EM] >>> [E:24731r S:0 M:107912260 (Ack:142917765)] (U) Msg RX from 0:3AA0DF03D4B84484 [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655567.072] [8481:8481] [EM] Found matching exchange: 24731r, Delegate: (nil)[0m
+[0;34m[1784655567.072] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917765 from Retrans Table on exchange 24731r[0m
+[0;32m[1784655567.073] [8481:8481] [EM] >>> [E:24732r S:35436 M:113581052 (Ack:73655398)] (S) Msg RX from 1:000000000001B669 [9DE1] to 0000000000000001 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)[0m
+[0;34m[1784655567.073] [8481:8481] [EM] Found matching exchange: 24732r, Delegate: (nil)[0m
+[0;34m[1784655567.073] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:73655398 from Retrans Table on exchange 24732r[0m
+[0;34m[1784655567.073] [8481:8481] [IN] SecureSession[0x5f1e776f7080]: Released - Type:2 LSID:35436[0m
+[0;32m[1784655567.354] [8481:8481] [EM] >>> [E:45444r S:0 M:132018105] (U) Msg RX from 0:233FDDB6D36B5271 [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;34m[1784655567.354] [8481:8481] [EM] Handling via exchange: 45444r, Delegate: 0x5f1e3834b5f8[0m
+[0;32m[1784655567.354] [8481:8481] [IN] CASE Server received Sigma1 message . Starting handshake. EC 0x5f1e776f7a90[0m
+[0;32m[1784655567.354] [8481:8481] [SC] Received Sigma1 msg[0m
+[0;34m[1784655567.354] [8481:8481] [SC] Found MRP parameters in the message[0m
+[0;34m[1784655567.354] [8481:8481] [SC] Peer (Initiator) assigned session ID 11838[0m
+[0;32m[1784655567.354] [8481:8481] [SC] CASE matched destination ID: fabricIndex 1, NodeID 0x1122334455667788[0m
+[0;32m[1784655567.355] [8481:8481] [EM] <<< [E:45444r S:0 M:142917766 (Ack:132018105)] (U) Msg TX from 0000000000000000 to 0:233FDDB6D36B5271 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:42159] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:544)[0m
+[0;32m[1784655567.355] [8481:8481] [EM] ??1 [E:45444r S:0 M:142917766] (U) Msg Retransmission to 0:0000000000000000 scheduled for 350ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;32m[1784655567.355] [8481:8481] [SC] Sent Sigma2 msg[0m
+[0;32m[1784655567.356] [8481:8481] [EM] >>> [E:45444r S:0 M:132018106 (Ack:142917766)] (U) Msg RX from 0:233FDDB6D36B5271 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;34m[1784655567.356] [8481:8481] [EM] Found matching exchange: 45444r, Delegate: 0x5f1e3834b630[0m
+[0;34m[1784655567.357] [8481:8481] [EM] Rxd Ack; Removing MessageCounter:142917766 from Retrans Table on exchange 45444r[0m
+[1;31m[1784655567.357] [8481:8481] [SC] Received error (protocol code 2) during pairing process: src/protocols/secure_channel/CASESession.cpp:2346: CHIP Error 0x00000054: Invalid CASE parameter[0m
+[1;31m[1784655567.357] [8481:8481] [IN] CASE Session establishment failed: src/protocols/secure_channel/CASESession.cpp:2346: CHIP Error 0x00000054: Invalid CASE parameter[0m
+[0;34m[1784655567.357] [8481:8481] [IN] SecureSession[0x5f1e776f6d70]: Released - Type:2 LSID:35437[0m
+[0;34m[1784655567.357] [8481:8481] [IN] SecureSession[0x5f1e776f6d70]: Allocated Type:2 LSID:35438[0m
+[0;34m[1784655567.357] [8481:8481] [SC] Allocated SecureSession (0x5f1e776f6d70) - waiting for Sigma1 msg[0m
+[0;32m[1784655567.357] [8481:8481] [EM] <<< [E:45444r S:0 M:142917767 (Ack:132018106)] (U) Msg TX from 0000000000000000 to 0:233FDDB6D36B5271 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:42159] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)[0m
+[0;34m[1784655567.357] [8481:8481] [EM] Flushed pending ack for MessageCounter:132018106 on exchange 45444r[0m
+[0;34m[1784655567.373] [8481:8481] [ZCL] Emitting ShutDown event[0m
+[0;34m[1784655567.373] [8481:8481] [EVL] LogEvent event number: 0x0000000000000005 priority: 2, endpoint id:  0x0 cluster id: 0x0000_0028 event id: 0x1 Epoch timestamp: 0x0000019F85C2DA0D[0m
+[0;34m[1784655567.373] [8481:8481] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;34m[1784655567.374] [8481:8481] [IN] SecureSession[0x5f1e776f6d70]: Released - Type:2 LSID:35438[0m
+[0;34m[1784655567.375] [8481:8481] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[1784655567.375] [8481:8481] [DMG] AccessControl: finishing[0m
+[0;32m[1784655567.375] [8481:8481] [DMG] Examples::AccessControlDelegate::Finish[0m
+[0;34m[1784655567.377] [8481:8481] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1784655567.377] [8481:8481] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;32m[1784655567.377] [8481:8481] [DL] Inet Layer shutdown[0m
+[0;32m[1784655567.377] [8481:8481] [DL] BLE Layer shutdown[0m
+[0;32m[1784655567.377] [8481:8481] [DL] WiFi-PAF Layer shutdown[0m
+[0;32m[1784655567.377] [8481:8481] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;32m[1784655567.377] [8481:8481] [DL] System Layer shutdown[0m
+[0;32m[1784655567.378] [8481:8481] [DMG] TLSClientManagementCluster: shutdown[0m
+[0;32m[1784655567.378] [8481:8481] [DMG] TLSCertificateManagementCluster: shutdown[0m
+[0;32m[1784655567.378] [8481:8481] [DMG] AccessControlCluster: shutdown[0m
+[0;32m[1784655567.378] [8481:8481] [BDX] Stop polling for messages[0m

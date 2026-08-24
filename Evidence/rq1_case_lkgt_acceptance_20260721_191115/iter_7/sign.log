@@ -1,0 +1,13 @@
+[1] Leyendo RCAC real del fabric...
+    RCAC OK. Subject: <Name(1.3.6.1.4.1.37244.1.4=0000000000000001)>
+    Pubkey RCAC: 04aff9d682cb020ae4b7e8ce1830c2b0a12fa35dbd786d9e549f925ea496b397be51b0475c94203a4d5898050277a285921dc802802de6eb1989f0487af89f4dca
+[2] Extrayendo clave privada real de chip-tool...
+    Clave privada verificada: coincide exactamente con el RCAC real.
+[3] Extrayendo CSR de NOCSRElements (offset dinámico)...
+    CSR válido. Subject: <Name(O=CSR)>
+[4] Firmando NOC caducado...
+    NOC firmado y convertido a TLV. 534 chars hex.
+
+=== LISTO ===
+Ejecuta ahora:
+/home/guillem/connectedhomeip/out/host/chip-tool operationalcredentials update-noc hex:$(cat expired_noc_signed.hex) 1 0

@@ -1,0 +1,27 @@
+diff --git a/src/protocols/secure_channel/CASESession.cpp b/src/protocols/secure_channel/CASESession.cpp
+index ad6ce28367..d1572e4421 100644
+--- a/src/protocols/secure_channel/CASESession.cpp
++++ b/src/protocols/secure_channel/CASESession.cpp
+@@ -29,6 +29,7 @@
+ #include <inttypes.h>
+ #include <memory>
+ #include <string.h>
++#include <cstdlib>
+ 
+ #include <lib/core/CHIPEncoding.h>
+ #include <lib/core/CHIPSafeCasts.h>
+@@ -2267,6 +2268,14 @@ CHIP_ERROR CASESession::SetEffectiveTime()
+     System::Clock::Milliseconds64 currentUnixTimeMS;
+     CHIP_ERROR err = System::SystemClock().GetClock_RealTimeMS(currentUnixTimeMS);
+ 
++    // Applied Project fault injection: MATTER_FAULT_CLOCK=1 forces the node into the LKGT fallback path, reproducing a device with no reliable clock.
++    const char * faultEnv = getenv("MATTER_FAULT_CLOCK");
++    
++    if (faultEnv != nullptr && strcmp(faultEnv, "1") == 0)
++    {
++        err = CHIP_ERROR_UNSUPPORTED_CHIP_FEATURE;
++    }
++
+     if (err == CHIP_NO_ERROR)
+     {
+         // If the system has given us a wall clock time, we must use it or

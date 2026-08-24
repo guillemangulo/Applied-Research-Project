@@ -1,0 +1,100 @@
+[0;34m[2524608000.096] [12501:12501] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_tool_kvs[0m
+[1;31m[2524608000.099] [12501:12501] [DL] ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs, IGNORING.[0m
+[0;34m[2524608000.101] [12501:12501] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini[0m
+[0;34m[2524608000.101] [12501:12501] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini[0m
+[0;34m[2524608000.101] [12501:12501] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini[0m
+[0;34m[2524608000.128] [12501:12501] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[2524608000.128] [12501:12501] [DL] NVS set: chip-counters/reboot-count = 4 (0x4)[0m
+[0;32m[2524608000.128] [12501:12501] [DL] Got Ethernet interface: enp0s3[0m
+[0;32m[2524608000.128] [12501:12501] [DL] Found the primary Ethernet interface:enp0s3[0m
+[1;31m[2524608000.128] [12501:12501] [DL] Failed to get WiFi interface[0m
+[1;31m[2524608000.128] [12501:12501] [DL] Failed to reset WiFi statistic counts[0m
+[0;32m[2524608000.128] [12501:12501] [PAF] WiFiPAF: WiFiPAFLayer::Init()[0m
+[0;34m[2524608000.128] [12501:12501] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[2524608000.129] [12501:12501] [IN] UDP::Init bound to port=59390[0m
+[0;34m[2524608000.129] [12501:12501] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[2524608000.129] [12501:12501] [IN] UDP::Init bound to port=56884[0m
+[0;34m[2524608000.129] [12501:12501] [IN] BLEBase::Init - setting/overriding transport[0m
+[0;34m[2524608000.129] [12501:12501] [IN] WiFiPAFBase::Init - setting/overriding transport[0m
+[0;34m[2524608000.129] [12501:12501] [IN] TransportMgr initialized[0m
+[0;34m[2524608000.129] [12501:12501] [FP] Initializing FabricTable from persistent storage[0m
+[0;32m[2524608000.129] [12501:12501] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.129] [12501:12501] [FP] Fabric index 0x1 was retrieved from storage. Compressed FabricId 0xA75DABD36937F68C, FabricId 0x0000000000000001, NodeId 0x000000000001B669, VendorId 0xFFF1[0m
+[0;32m[2524608000.130] [12501:12501] [DMG] Ember attribute persistence requires setting up[0m
+[0;32m[2524608000.130] [12501:12501] [ZCL] Using ZAP configuration...[0m
+[0;34m[2524608000.130] [12501:12501] [CTL] System State Initialized...[0m
+[0;32m[2524608000.130] [12501:12501] [CTL] Setting attestation nonce to random value[0m
+[0;32m[2524608000.130] [12501:12501] [CTL] Setting CSR nonce to random value[0m
+[0;34m[2524608000.131] [12501:12516] [DL] CHIP task running[0m
+[0;32m[2524608000.131] [12501:12516] [CTL] Setting attestation nonce to random value[0m
+[0;32m[2524608000.131] [12501:12516] [CTL] Setting CSR nonce to random value[0m
+[0;32m[2524608000.131] [12501:12516] [CTL] Generating NOC[0m
+[0;32m[2524608000.131] [12501:12516] [FP] Validating NOC chain[0m
+[0;32m[2524608000.132] [12501:12516] [FP] NOC chain validation successful[0m
+[0;32m[2524608000.132] [12501:12516] [FP] Updated fabric at index: 0x1, Node ID: 0x000000000001B669[0m
+[0;32m[2524608000.132] [12501:12516] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.132] [12501:12516] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0;32m[2524608000.132] [12501:12516] [TS] Retaining current Last Known Good Time[0m
+[0;32m[2524608000.134] [12501:12516] [FP] Metadata for Fabric 0x1 persisted to storage.[0m
+[0;32m[2524608000.135] [12501:12516] [TS] Committing Last Known Good Time to storage: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.136] [12501:12516] [CTL] Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: A75DABD36937F68C)[0m
+[0;32m[2524608000.141] [12501:12516] [TOO] Sending command to node 0x1[0m
+[0;34m[2524608000.141] [12501:12516] [CSM] FindOrEstablishSession: PeerId = [1:0000000000000001][0m
+[0;34m[2524608000.141] [12501:12516] [CSM] FindOrEstablishSession: No existing OperationalSessionSetup instance found[0m
+[0;34m[2524608000.141] [12501:12516] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 1 --> 2[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] Lookup started for A75DABD36937F68C-0000000000000001[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540: new best score: 7 (for A75DABD36937F68C-0000000000000001)[0m
+[0;34m[2524608000.142] [12501:12516] [DIS] Lookup clearing interface for non LL address[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] UDP:10.0.2.15%enp0s3:5540: new best score: 2 (for A75DABD36937F68C-0000000000000001)[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] Checking node lookup status for A75DABD36937F68C-0000000000000001 after 1 ms[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] Keeping DNSSD lookup active[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540: score has not improved: 7 (for A75DABD36937F68C-0000000000000001)[0m
+[0;34m[2524608000.142] [12501:12516] [DIS] Lookup clearing interface for non LL address[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] UDP:10.0.2.15%enp0s3:5540: score has not improved: 2 (for A75DABD36937F68C-0000000000000001)[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] Checking node lookup status for A75DABD36937F68C-0000000000000001 after 1 ms[0m
+[0;32m[2524608000.142] [12501:12516] [DIS] Keeping DNSSD lookup active[0m
+[0;32m[2524608000.457] [12501:12516] [DIS] Checking node lookup status for A75DABD36937F68C-0000000000000001 after 316 ms[0m
+[0;34m[2524608000.457] [12501:12516] [DIS] OperationalSessionSetup[1:0000000000000001]: Updating device address to UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540 while in state 2[0m
+[0;34m[2524608000.457] [12501:12516] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 2 --> 3[0m
+[0;34m[2524608000.457] [12501:12516] [IN] SecureSession[0x7efd20009cd0]: Allocated Type:2 LSID:279[0m
+[0;32m[2524608000.457] [12501:12516] [SC] Initiating session on local FabricIndex 1 from 0x000000000001B669 -> 0x0000000000000001[0m
+[0;32m[2524608000.458] [12501:12516] [EM] <<< [E:54859i S:0 M:19929754] (U) Msg TX from 77D0327DCE3F00CB to 0:0000000000000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)[0m
+[0;32m[2524608000.458] [12501:12516] [EM] ??1 [E:54859i S:0 M:19929754] (U) Msg Retransmission to 0:0000000000000000 scheduled for 667ms from now [State:Idle II:500 AI:300 AT:4000][0m
+[0;32m[2524608000.458] [12501:12516] [SC] Sent Sigma1 msg to <0000000000000001, 1> [II:500ms AI:300ms AT:4000ms][0m
+[0;34m[2524608000.458] [12501:12516] [DIS] OperationalSessionSetup[1:0000000000000001]: State change 3 --> 4[0m
+[0;32m[2524608000.460] [12501:12516] [EM] >>> [E:54859i S:0 M:156221785 (Ack:19929754)] (U) Msg RX from 0:0000000000000000 [0000] to 77D0327DCE3F00CB --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:751)[0m
+[0;34m[2524608000.460] [12501:12516] [EM] Found matching exchange: 54859i, Delegate: 0x7efd2000b8e8[0m
+[0;34m[2524608000.460] [12501:12516] [EM] Rxd Ack; Removing MessageCounter:19929754 from Retrans Table on exchange 54859i[0m
+[0;32m[2524608000.460] [12501:12516] [SC] Received Sigma2 msg[0m
+[0;34m[2524608000.460] [12501:12516] [SC] Found MRP parameters in the message[0m
+[0;34m[2524608000.466] [12501:12516] [SC] Certificate's mNotAfterTime (978134400) is before current time (1577923200)[0m
+[0;34m[2524608000.466] [12501:12516] [SC] Sending status report. Protocol code 2, exchange 54859[0m
+[0;32m[2524608000.466] [12501:12516] [EM] <<< [E:54859i S:0 M:19929755 (Ack:156221785)] (U) Msg TX from 77D0327DCE3F00CB to 0:0000000000000000 [0000] [UDP:[fe80::bfe:a203:38f0:bce7%enp0s3]:5540] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)[0m
+[0;32m[2524608000.466] [12501:12516] [EM] ??1 [E:54859i S:0 M:19929755] (U) Msg Retransmission to 0:0000000000000000 scheduled for 360ms from now [State:Active II:500 AI:300 AT:4000][0m
+[0;34m[2524608000.466] [12501:12516] [IN] SecureSession[0x7efd20009cd0]: Released - Type:2 LSID:279[0m
+[1;31m[2524608000.467] [12501:12516] [-] src/credentials/CHIPCert.cpp:1481: CHIP Error 0x0000004E: Certificate expired at examples/chip-tool/commands/clusters/ModelCommand.cpp:67[0m
+[0;34m[2524608000.468] [12501:12501] [CTL] Shutting down the commissioner[0m
+[0;32m[2524608000.468] [12501:12501] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;34m[2524608000.468] [12501:12501] [CTL] Shutting down the controller[0m
+[0;34m[2524608000.468] [12501:12501] [IN] Expiring all sessions for fabric 0x1!![0m
+[0;32m[2524608000.468] [12501:12501] [FP] Forgetting fabric 0x1[0m
+[0;32m[2524608000.468] [12501:12501] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.469] [12501:12501] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.469] [12501:12501] [TS] Reverted Last Known Good Time to previous value[0m
+[0;34m[2524608000.469] [12501:12501] [CTL] Shutting down the commissioner[0m
+[0;32m[2524608000.469] [12501:12501] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;34m[2524608000.469] [12501:12501] [CTL] Shutting down the controller[0m
+[0;34m[2524608000.469] [12501:12501] [CTL] Shutting down the System State, this will teardown the CHIP Stack[0m
+[0;34m[2524608000.469] [12501:12501] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0;32m[2524608000.469] [12501:12501] [FP] Shutting down FabricTable[0m
+[0;32m[2524608000.469] [12501:12501] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.469] [12501:12501] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0;32m[2524608000.469] [12501:12501] [TS] Reverted Last Known Good Time to previous value[0m
+[0;34m[2524608000.478] [12501:12501] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[2524608000.479] [12501:12501] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;32m[2524608000.479] [12501:12501] [DL] Inet Layer shutdown[0m
+[0;32m[2524608000.479] [12501:12501] [DL] BLE Layer shutdown[0m
+[0;32m[2524608000.479] [12501:12501] [DL] WiFi-PAF Layer shutdown[0m
+[0;32m[2524608000.479] [12501:12501] [PAF] WiFiPAF: Closing all WiFiPAF sessions to shutdown[0m
+[0;32m[2524608000.479] [12501:12501] [DL] System Layer shutdown[0m
+[1;31m[2524608000.479] [12501:12501] [TOO] Run command failure: src/credentials/CHIPCert.cpp:1481: CHIP Error 0x0000004E: Certificate expired[0m
